@@ -1,15 +1,8 @@
 <%@ page contentType="text/html; charset=utf-8" language="java" import="java.sql.*" errorPage="" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>无标题文档</title>
-</head>
 
-<body>
 		<DIV class=menu>
             <UL>
-              <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);><span>系统管理</span>
+              <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);><a href="#"><span>系统管理</span></a>
                   <DIV class=menu_childs onmouseout=Menus.Hide(0);>
                   <UL>
                     <LI><A href="system/systemadmin.html" target=frmright>账户管理</A></LI>
@@ -25,7 +18,7 @@
                   src="images/menu01_right.gif"></DIV>
               </LI>
               <!--*****************-->  
-              <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);><span>用户管理</span>
+              <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);><a href="#"><span>用户管理</span></a>
                   <DIV class=menu_childs onmouseout=Menus.Hide(0);>
                   <UL>
                     <LI><A href="member/agent.html" target=frmright>代理商</A></LI>
@@ -41,7 +34,7 @@
                   src="images/menu01_right.gif"></DIV>
               </LI>
               <!--*****************-->  
-              <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);><span>财务中心</span>
+              <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);><a href="#"><span>财务中心</span></a>
                   <DIV class=menu_childs onmouseout=Menus.Hide(0);>
                   <UL>
                     <LI><A href="gold/goldAdmin.html" target=frmright>用户银子</A></LI>
@@ -52,7 +45,7 @@
                   src="images//menu01_right.gif"></DIV>
               </LI>
               <!--*****************-->  
-              <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);><span>游戏管理</span>
+              <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);><a href="#"><span>游戏管理</span></a>
                   <DIV class=menu_childs onmouseout=Menus.Hide(0);>
                   <UL>
                     <LI><A href="game/gameroom.html" target=frmright>房间管理</A></LI>
@@ -61,7 +54,7 @@
                   src="images/menu01_right.gif"></DIV>
               </LI>
               <!--*****************-->  
-              <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);><span>现场注单</span>
+              <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);><a href="#"><span>现场注单</span></a>
                   <DIV class=menu_childs onmouseout=Menus.Hide(0);>
                   <UL>
                     <LI><A href="single/baccarat.html" target=frmright>百家乐</A></LI>
@@ -74,7 +67,7 @@
                   src="images/menu01_right.gif"></DIV>
               </LI>
               <!--*****************-->  
-              <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);><span>报表管理</span>
+              <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);><a href="#"><span>报表管理</span></a>
                   <DIV class=menu_childs onmouseout=Menus.Hide(0);>
                   <UL>
                     <LI><A href="baob/baobAdmin.html" target=frmright>代理报表</A></LI>
@@ -87,7 +80,7 @@
               <!--*****************-->  
               
               <!--*****************-->  
-              <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);><span>网站内容</span>
+              <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);><a href="#"><span>网站内容</span></a>
                 <DIV class=menu_childs onmouseout=Menus.Hide(0);>
                 <UL>
                     <LI><A href="web/ad.html" target=frmright>广告管理</A></LI>
@@ -138,5 +131,3 @@
               </LI>-->
             </UL>
         </DIV>
-</body>
-</html>
