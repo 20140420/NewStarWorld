@@ -7,9 +7,9 @@
 <link href="../css/main.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-	<Div class="title">银子监控</Div>
+	<Div class="title">数据统计</Div>
     <table width="100%" border="0" cellpadding="0" cellspacing="0" class="table_margin">
-      <tr class="bgtitle">
+      <tr>
         <td height="28" class="menutop">名称</td>
         <td class="menutop">系统银子</td>
         <td class="menutop">充值</td>
@@ -17,7 +17,7 @@
         <td class="menutop">扣税</td>
         <td class="menutop">机器人输赢</td>
       </tr>
-      <tr class="bg1">
+      <tr>
         <td class="tdcenter">公司</td>
         <td class="tdcenter"><a href="usermoneyView.html">0</a></td>
         <td class="tdcenter"><a href="userpay.html">1000</a></td>
@@ -25,15 +25,15 @@
         <td class="tdcenter"><a href="taxmoneyView.html">400</a></td>
         <td class="tdcenter"><a href="robotmoneyView.html">2000</a></td>
       </tr>
-      <tr class="bg2">
-        <td class="tdcenter">公司</td>
-        <td class="tdcenter"><a href="usermoneyView.html">0</a></td>
-        <td class="tdcenter"><a href="userpay.html">1000</a></td>
-        <td class="tdcenter"><a href="userpay.html">100</a></td>
-        <td class="tdcenter"><a href="taxmoneyView.html">400</a></td>
-        <td class="tdcenter"><a href="robotmoneyView.html">2000</a></td>
+      <tr>
+        <td class="tdcenter2">公司</td>
+        <td class="tdcenter2"><a href="usermoneyView.html">0</a></td>
+        <td class="tdcenter2"><a href="userpay.html">1000</a></td>
+        <td class="tdcenter2"><a href="userpay.html">100</a></td>
+        <td class="tdcenter2"><a href="taxmoneyView.html">400</a></td>
+        <td class="tdcenter2"><a href="robotmoneyView.html">2000</a></td>
       </tr>
-      <tr class="bg1">
+      <tr>
         <td class="tdcenter">公司</td>
         <td class="tdcenter"><a href="usermoneyView.html">0</a></td>
         <td class="tdcenter"><a href="userpay.html">1000</a></td>

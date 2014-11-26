@@ -103,7 +103,7 @@ width="100%" border=0>
           background=images/bg2.gif><IMG alt="" 
             src="images/table_top_right.gif"></TD>
           <!--<TD align=right width=16 bgColor=#337abb></TD>--></TR></TBODY></TABLE>
-		  <IFRAME class=main_iframe id=frmright name=frmright src="system/moneyView.jsp" frameBorder=0 scrolling=yes></IFRAME>
+		  <IFRAME class=main_iframe id=frmright name=frmright src="notice.jsp" frameBorder=0 scrolling=yes></IFRAME>
       <TABLE style="BACKGROUND: #FFF" cellSpacing=0 cellPadding=0 
       width="100%" border=0>
         <TBODY>
@@ -121,5 +121,6 @@ width="100%" border=0>
 </TABLE>
 <!-- 尾部 -->
 <div class="footer"></div>
+<p>&nbsp;</p>
 </BODY>
 </HTML>

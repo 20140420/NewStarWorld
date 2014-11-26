@@ -104,6 +104,7 @@ td {
 .tdright {text-align: left;line-height: 30px;	height:30px;font-size:12px;  border-bottom:solid 1px #d0d0d0;border-right:solid 1px #d0d0d0;border-left:solid 1px #fff; border-top:solid 1px #fff; padding-left:5px;}
 .tdright_1{text-align: left;line-height: 30px;	height:30px;font-size:12px;	 border-bottom:solid 1px #d0d0d0;border-right:solid 1px #d0d0d0; padding-left:5px;}
 .menutop {
+	background-color: #3f3f3f;
 	font-size: 12px;
 	font-weight: bold;
 	color: #FFFFFF;
@@ -118,20 +119,30 @@ td {
 .menutop_left {font-size: 12px;font-weight: bold;color: #000;text-align: left;	height:26px;line-height:26px;border-bottom:solid 1px #d0d0d0;border-right:solid 1px #d0d0d0; padding-left:5px;}
 
 .tdcenter {
+	background-color: #FFF;
+	color: #000;
 	font-size: 12px;
 	text-align: center;
 	line-height: 24px;
 	border: 1px solid #d0d0d0;
 }
-.tdcenter a{
+.tdcenter2 {
+	background-color: #999;
+	color: #000;
+	font-size: 12px;
+	text-align: center;
+	line-height: 24px;
+	border: 1px solid #d0d0d0;
+}
+.tdcenter a, .tdcenter2 a{
 	color: #333;
 	text-decoration: none;
 }
-.tdcenter a:visited{
+.tdcenter a:visited, .tdcenter2 a:visited{
 	color: #666;
 	text-decoration: none;
 }
-.tdcenter a:hover{
+.tdcenter a:hover, .tdcenter2 a:hover{
 	color: #000;
 	text-decoration: underline;
 }
@@ -146,9 +157,9 @@ td {
 .tdcenter_red {
 	font-size: 12px;
 	text-align: center;
-	line-height: 24px; color:#990000;
-	font-weight:bold;border-bottom:solid 1px #d0d0d0;border-right:solid 1px #d0d0d0; 
-	border-bottom:solid 1px #d0d0d0;border-right:solid 1px #d0d0d0;border-left:solid 1px #fff; border-top:solid 1px #fff;
+	line-height: 24px;
+	color: #990000;
+	font-weight: bold;
 }
 
 .tdcenter_red a{ color:#ff0000; text-decoration:none;}
@@ -205,13 +216,3 @@ td {
 .tab li{ float:left; list-style:none; margin:0 5px 0 0; font-size:12px; color:#fff; padding:0 10px; background:url(../images/tab_bg.png) repeat-x; border:1px solid #0082de; border-bottom:none;}
 .tab li.active{ background:#0082de;}
 .tab li a{ color:#fff; text-decoration:none; display:block;}
-.bgtitle {
-	background-color: #3f3f3f;
-}
-.bg1 {
-	background-color: #FFF;
-	color: #000;
-}
-.bg2 {
-	background-color: #999;
-}

@@ -5,14 +5,14 @@
               <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);><a href="#"><span>系统管理</span></a>
                   <DIV class=menu_childs onmouseout=Menus.Hide(0);>
                   <UL>
-                    <LI><A href="system/systemadmin.html" target=frmright>账户管理</A></LI>
-                    <LI><A href="system/moneyView.jsp" target=frmright>数据统计</A></LI>
-                    <LI><A href="system/system.html" target=frmright>综合设置</A></LI>
-                    <LI><A href="game/roomline.html" target=frmright>手机菜单</A></LI>
-                    <LI><A href="game/roomline.html" target=frmright>通讯设置</A></LI>
-                    <LI><A href="game/roomline.html" target=frmright>数据管理</A></LI>
-                    <LI><A href="game/roomline.html" target=frmright>泡点设置</A></LI>
-                    <LI><A href="game/roomline.html" target=frmright>在线统计</A></LI>
+                    <LI><A href="system/systemadmin.jsp" target=frmright>账户管理</A></LI>
+                    <LI><A href="system/datacount.jsp" target=frmright>数据统计</A></LI>
+                    <LI><A href="system/model.jsp" target=frmright>综合设置</A></LI>
+                    <LI><A href="system/model.jsp" target=frmright>手机菜单</A></LI>
+                    <LI><A href="system/model.jsp" target=frmright>通讯设置</A></LI>
+                    <LI><A href="system/model.jsp" target=frmright>数据管理</A></LI>
+                    <LI><A href="system/model.jsp" target=frmright>泡点设置</A></LI>
+                    <LI><A href="system/model.jsp" target=frmright>在线统计</A></LI>
                     </UL></DIV>
                   <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" 
                   src="images/menu01_right.gif"></DIV>
