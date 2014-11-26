@@ -65,14 +65,16 @@ function DvMenuCls(){
 
 function getleftbar(obj){
 	var leftobj;
-	var titleobj=obj.getElementsByTagName("a");
+	var menu_title = obj.getElementsByTagName("span");//获取标题
+	//var titleobj=obj.getElementsByTagName("a");
 	leftobj = document.all ? frames["frmleft"] : document.getElementById("frmleft").contentWindow;
 	if (!leftobj){return;}
 	var menubar = leftobj.document.getElementById("menubar")
 	if (menubar){
-			if (titleobj[0]){
-				document.getElementById("leftmenu_title").innerHTML = titleobj[0].innerHTML;
-			}
+			//if (titleobj[0]){
+				//document.getElementById("leftmenu_title").innerHTML = titleobj[0].innerHTML;
+				document.getElementById("leftmenu_title").innerHTML = menu_title[0].innerHTML;
+			//}
 			var a=obj.getElementsByTagName("ul");
 			for(var i=0;i<a.length;i++){
 				menubar.innerHTML = a[i].innerHTML;
