@@ -11,11 +11,12 @@ hr { width:90%; text-align:left; size:0; height:0px; border-top:1px solid #46A0C
 .menu li {
 	list-style: none;
 	float: left;
-	border-bottom-width: 3px;
+	border-bottom-width: 1px;
 	border-bottom-style: solid;
 	border-bottom-color: #3f3f3f;
 	margin: 0px;
 	height: 30px;
+	padding: 0px;
 }
 .copyright { color:#E1FEFF; font-size:12px; line-height:18px; padding-left:10px; font-family: Arial; height:24px;}
 .copyright2 { color:#E1FEFF; font-size:12px; line-height:18px; padding-left:10px; font-family: Arial; height:24px; padding-left:30px;}
@@ -29,23 +30,20 @@ hr { width:90%; text-align:left; size:0; height:0px; border-top:1px solid #46A0C
 #menubar ul li{  float:left;  margin-left:-40px !important; margin-left:0px;
 }
 #menubar a{
-	background: url("../images/menu_icon2.gif") no-repeat;
 	color: #3f3f3f;
 	text-decoration: none;
 	font-size: 12px;
 	display: block;
 	float: left;
-	float: left;
 	width: 180px;
-	height: inherit !important;
-	height: 24px;
-	text-align: left;
-	padding-left: 20px;
-	margin:6px 0px;
+	height: 39px !important;
+	height: 39px;
+	text-align: center;
+	margin: 6px 0px 6px 0px;
+	padding:0px 10px 0px 0px;
 }
 
 #menubar a:hover{
-	background: url("../images/menu_icon.gif") #3f3f3f no-repeat;
 	filter: alpha(opacity=60);
 	color: #FFF;
 	text-decoration: none;
@@ -53,9 +51,12 @@ hr { width:90%; text-align:left; size:0; height:0px; border-top:1px solid #46A0C
 	display: block;
 	float: left;
 	width: 180px;
-	height: inherit !important;
-	height: 22px;
-	text-align: left;
+	height: 39px !important;
+	height: 39px;
+	text-align: center;
+	background-image: url(../images/nov_lfbg.png);
+	background-repeat: no-repeat;
 	margin: 0px;
-	padding-left: 20px;
+	padding:10px 10px 0px 0px;
+
 }

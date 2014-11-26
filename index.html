@@ -29,18 +29,17 @@ function switchSysBar(){
     <ul>
     	<div class="state_logo"><img src="images/notice_logo.png"/></div>
         <div class="state_notice">欢迎您进入星际娱乐城</div>
-        <div class="state_menu">账户中心<em>|</em>子账户<em>|</em>锁定本机<em>|</em>解锁<em>|</em>安全退出</div>
+        <div class="state_menu"><a href="#">账户中心</a><em>|</em><a href="#">子账户</a><em>|</em><a href="#">锁定本机</a><em>|</em><a href="#">解锁</a><em>|</em><a href="#">安全退出</a></div>
     </ul>
 </div>
 <!--导航部分-->
 <DIV class=top_table>
 	<DIV class=system_logo><IMG src="images/logo_up.png"></DIV>
-    <DIV class=top_table_leftbg>
-        
+    <!--<DIV class=top_table_leftbg>-->   
         <!-- 头部用户信息 -->
         <div class="system_user">
             <ul>
-                您好,admin,钱庄:85200000000<span>转账<em>|</em>充值<em>|</em>提款</span>
+                您好<em>,</em><a href="#">admin</a><em>,</em>钱庄:<em><a href="#">85200000000</a><a href="#"></em><span><a href="#">转账</a><em>|</em><a href="#">充值</a><em>|</em><a href="#">提款</a></span>
             </ul>
         </div>
         <!-- 头部用户信息end -->
@@ -79,7 +78,7 @@ function switchSysBar(){
                   src="images/menu01_right.gif"></DIV>
               </LI>
               <!--*****************-->  
-              <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);>银子管理
+              <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);>财务中心
                   <DIV class=menu_childs onmouseout=Menus.Hide(0);>
                   <UL>
                     <LI><A href="gold/goldAdmin.html" target=frmright>用户银子</A></LI>
@@ -99,18 +98,6 @@ function switchSysBar(){
                   src="images/menu01_right.gif"></DIV>
               </LI>
               <!--*****************-->  
-              <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);>报表管理
-                  <DIV class=menu_childs onmouseout=Menus.Hide(0);>
-                  <UL>
-                    <LI><A href="baob/baobAdmin.html" target=frmright>代理报表</A></LI>
-                    <LI><A href="baob/baobmember.html" target=frmright>会员报表</A></LI>
-                    <LI><A href="baob/baobdel.html" target=frmright>报表删除</A></LI>
-                        </UL></DIV>
-                  <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" 
-                  src="images/menu01_right.gif"></DIV>
-              </LI>
-              <!--*****************-->  
-               <!--*****************-->  
               <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);>现场注单
                   <DIV class=menu_childs onmouseout=Menus.Hide(0);>
                   <UL>
@@ -124,28 +111,20 @@ function switchSysBar(){
                   src="images/menu01_right.gif"></DIV>
               </LI>
               <!--*****************-->  
-              <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);>积分管理
+              <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);>报表管理
                   <DIV class=menu_childs onmouseout=Menus.Hide(0);>
                   <UL>
-                    <LI><A href="integral/integralAdmin.html" target=frmright>已受理的订单</A></LI>
-                    <LI><A href="integral/integralNotAdmin.html" target=frmright>未受理的订单</A></LI>
-                   </UL>
-                </DIV>
-                <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" src="images/menu01_right.gif"></DIV>
-              </LI>
-              <!--*****************-->  
-              <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);>商品管理
-                  <DIV class=menu_childs onmouseout=Menus.Hide(0);>
-                    <UL>
-                        <LI><A href="shoping/shopclass.html" target=frmright>商品分类</A></LI>
-                        <LI><A href="shoping/shop.html" target=frmright>商品管理</A></LI>
-                    </UL>
-                  </DIV>
+                    <LI><A href="baob/baobAdmin.html" target=frmright>代理报表</A></LI>
+                    <LI><A href="baob/baobmember.html" target=frmright>会员报表</A></LI>
+                    <LI><A href="baob/baobdel.html" target=frmright>报表删除</A></LI>
+                        </UL></DIV>
                   <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" 
                   src="images/menu01_right.gif"></DIV>
               </LI>
               <!--*****************-->  
-              <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);>网站管理
+              
+              <!--*****************-->  
+              <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);>网站内容
                 <DIV class=menu_childs onmouseout=Menus.Hide(0);>
                 <UL>
                     <LI><A href="web/ad.html" target=frmright>广告管理</A></LI>
@@ -157,7 +136,27 @@ function switchSysBar(){
                 </DIV>
                 <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" src="images/menu01_right.gif"></DIV>
               </LI>
-              <!--*****************-->  
+              
+              <!--*****************  
+              <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);>积分管理
+                  <DIV class=menu_childs onmouseout=Menus.Hide(0);>
+                  <UL>
+                    <LI><A href="integral/integralAdmin.html" target=frmright>已受理的订单</A></LI>
+                    <LI><A href="integral/integralNotAdmin.html" target=frmright>未受理的订单</A></LI>
+                   </UL>
+                </DIV>
+                <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" src="images/menu01_right.gif"></DIV>
+              </LI>
+              <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);>商品管理
+                  <DIV class=menu_childs onmouseout=Menus.Hide(0);>
+                    <UL>
+                        <LI><A href="shoping/shopclass.html" target=frmright>商品分类</A></LI>
+                        <LI><A href="shoping/shop.html" target=frmright>商品管理</A></LI>
+                    </UL>
+                  </DIV>
+                  <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" 
+                  src="images/menu01_right.gif"></DIV>
+              </LI>
               <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);>推广员
                 <DIV class=menu_childs onmouseout=Menus.Hide(0);>
                     <UL>
@@ -166,7 +165,6 @@ function switchSysBar(){
                 </DIV>
                 <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" src="images/menu01_right.gif"></DIV>
               </LI>
-              <!--*****************-->  
               <LI id=menu_9 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);><A href="out.php" target=frmright>退出管理</A>
                 <DIV class=menu_childs onmouseout=Menus.Hide(0);>
                     <UL>
@@ -174,11 +172,11 @@ function switchSysBar(){
                     </UL>
                 </DIV>
                 <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" src="images/menu01_right.gif"></DIV>
-              </LI>
+              </LI>-->
             </UL>
         </DIV>
         <!--导航菜单end-->
-    </DIV>
+    <!--</DIV>-->
 </DIV>
 <DIV style="BACKGROUND:#000; HEIGHT: 4px"></DIV>
 <!--导航部分结束-->
