@@ -1,4 +1,0 @@
-NewStarWorld
-============
-
-NewStarWorld
