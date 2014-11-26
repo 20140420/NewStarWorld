@@ -68,7 +68,7 @@ width="100%" border=0>
           </TABLE>
       </div>
       <IFRAME class=left_iframe id=frmleft name=frmleft 
-      src="left.jsp" frameBorder=0 
+      src="include/left.jsp" frameBorder=0 
       allowTransparency></IFRAME>
       <TABLE style="BACKGROUND: #FFF" cellSpacing=0 cellPadding=0 width="100%" border=0>
         <TBODY>
