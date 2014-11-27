@@ -7,7 +7,7 @@
 <link href="../css/main.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-	<Div class="title">系统菜单模板</Div>
+	<Div class="title">在线统计</Div>
     <table width="100%" border="0" cellpadding="0" cellspacing="0" class="table_margin">
       <tr>
         <td height="28" class="menutop">名称</td>

@@ -7,7 +7,7 @@
 <link href="../css/main.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-	<Div class="title"><span>  
+	<Div class="title">管理账户<span>  
 	  <form id="form1" name="form1" method="post" action="">
 	    <label>
 	    <input name="textfield" type="text" class="input_width2" />
@@ -19,7 +19,7 @@
 	    </label>
 	    <input name="Submit" type="button" class="input" value="新增" onclick="window.location.href='systmeadminAdd.html'" />
       </form>
-	</span>账户管理</Div>
+	</span></Div>
 		<table width="100%" border="0" cellpadding="0" cellspacing="0" class="table_margin">
           <tr>
             <td width="30" class="menutop">序号</td>
