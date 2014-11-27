@@ -28,8 +28,8 @@ function switchSysBar(){
 <BODY style="MARGIN: 0px">
 <div class="state">
     <ul>
-    	<div class="state_logo"><img src="images/notice_logo.png"/></div>
-        <div class="state_notice"><SPAN style="COLOR: #c00"><marquee scrollamount="3">欢迎您进入星际娱乐城</marquee></SPAN></div>
+    	<div class="state_logo"><!--<span><img src="images/notice_logo.png"/></span>--></div>
+        <div class="state_notice"><SPAN style="COLOR: #FFF"><marquee scrollamount="3">欢迎您进入星际娱乐城</marquee></SPAN></div>
         <div class="state_menu"><a href="#">账户中心</a><em>|</em><a href="#">子账户</a><em>|</em><a href="#">锁定本机</a><em>|</em><a href="#">解锁</a><em>|</em><a href="#">安全退出</a></div>
     </ul>
 </div>
@@ -51,6 +51,7 @@ function switchSysBar(){
 </DIV>
 <DIV style="BACKGROUND:#000; HEIGHT: 4px"></DIV>
 <!--导航部分结束-->
+<div class="main_index">
 <TABLE height="92%" cellSpacing=0 cellPadding=0 
 width="100%" border=0>
   <TBODY>
@@ -68,13 +69,7 @@ width="100%" border=0>
           </TABLE>
       <IFRAME class=left_iframe id=frmleft name=frmleft 
       src="left.jsp" frameBorder=0 
-      allowTransparency></IFRAME>
-      <TABLE style="BACKGROUND: #FFF" cellSpacing=0 cellPadding=0 width="100%" border=0>
-        <TBODY>
-        <TR height=6>
-          <TD vAlign=top></TD>
-          <TD vAlign=bottom align=middle></TD>
-          <TD vAlign=top align=right></TD></TR></TBODY></TABLE></TD>
+      allowTransparency></IFRAME></TD>
     <!-- 2左导航开关 -->
     <TD style="WIDTH: 10px" bgColor=#000>
       <TABLE height="100%" cellSpacing=0 cellPadding=0 border=0>
@@ -85,24 +80,19 @@ width="100%" border=0>
             src="images/right.gif"></SPAN> </TD></TR></TBODY></TABLE></TD>
     <!-- 3右主体内容 -->
     <TD vAlign=top width="100%" >
-      <TABLE cellSpacing=0 cellPadding=0 width="100%" bgColor=#FFF border=0>
-      	<TBODY>
-        <TR height=39>
-          <TD vAlign=top width=10><IMG alt="" src="images/table_top_left.gif"></TD>
-          <TD vAlign=top align=right width=10 background=images/bg2.gif><IMG alt="" src="images/table_top_right.gif"></TD>
-          </TR></TBODY></TABLE>
-		  <IFRAME class=main_iframe id=frmright name=frmright src="notice.jsp" frameBorder=0 scrolling=yes></IFRAME>
+      <IFRAME class=main_iframe id=frmright name=frmright src="notice.jsp" frameBorder=0 scrolling=yes></IFRAME>
       <TABLE style="BACKGROUND: #FFF" cellSpacing=0 cellPadding=0 width="100%" border=0>
         <TBODY>
         <TR>
-          <TD><IMG height=6 alt="" src="images/table_bottom_left.gif" width=5></TD>
-          <TD align=right><IMG height=6 alt="" src="images/table_bottom_right.gif" width=5></TD>
+          <TD><!--<IMG height=6 alt="" src="images/table_bottom_left.gif" width=5>--></TD>
+          <TD align=right><!--<IMG height=6 alt="" src="images/table_bottom_right.gif" width=5>--></TD>
         </TR></TBODY></TABLE></TD>
-	<!-- 4右预留空间 -->
-    <TD style="WIDTH: 10px;" bgColor=#000>&nbsp;</TD>
+	<!-- 4右预留空间
+    <TD style="WIDTH: 10px;" bgColor=#000>&nbsp;</TD> -->
     </TR>
   </TBODY>
 </TABLE>
+</div>
 <!-- 尾部 -->
 <div class="footer"></div>
 <p>&nbsp;</p>

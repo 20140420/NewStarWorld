@@ -14,4 +14,8 @@
 <file name="bg2.gif" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130607876816718750" remote="130607876810000000" Dst="0" />
 <file name="menu_icon.gif" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130607876815468750" remote="130607876810000000" Dst="0" />
 <file name="menu_icon2.gif" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130607876816250000" remote="130607876810000000" Dst="0" />
+<file name="table_bottom_left.gif" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130613798986946672" remote="130613798980000000" Dst="0" />
+<file name="table_bottom_right.gif" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130613799326036067" remote="130613799320000000" Dst="0" />
+<file name="table_top_left.gif" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130613800672433077" remote="130613800670000000" Dst="0" />
+<file name="table_top_right.gif" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130613800656782182" remote="130613800650000000" Dst="0" />
 </dwsync>

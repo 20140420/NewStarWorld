@@ -17,7 +17,7 @@
         </select>
 	    <input name="Submit2" type="submit" class="input" value="搜索" />
 	    </label>
-	    <input name="Submit" type="button" class="input" value="新增" onclick="window.location.href='systmeadminAdd.html'" />
+	    <input name="Submit" type="button" class="input" value="新增" onclick="window.location.href='systemAdminAdd.jsp'" />
       </form>
 	</span></Div>
 		<table width="100%" border="0" cellpadding="0" cellspacing="0" class="table_margin">
@@ -28,34 +28,38 @@
             <td class="menutop">登录IP</td>
             <td class="menutop">最后登录时间</td>
             <td class="menutop">状态</td>
+            <td class="menutop">绑定机器</td>
             <td class="menutop">操作</td>
           </tr>
           <tr onmouseover="this.className='trover'" onmouseout="this.className='trout'">
             <td class="tdcenter">1</td>
-            <td class="tdcenter"><a href="systemLog.html">张三</a></td>
+            <td class="tdcenter"><a href="systemAdminLog.jsp">张三</a></td>
             <td class="tdcenter">超管</td>
             <td class="tdcenter">192.168.1.1</td>
             <td class="tdcenter">20101-10-06 09:12:20 </td>
             <td class="tdcenter">启用</td>
-            <td class="tdcenter"><a href="systemadminEdit1.html">编辑</a> / <a href="#">删除</a> </td>
+            <td class="tdcenter">绑定</td>
+            <td class="tdcenter"><a href="systemAdminPassword.jsp">修改密码</a> / <a href="systemAdminPermission.jsp">设置权限</a> / <a href="#">删除</a> </td>
           </tr>
           <tr onmouseover="this.className='trover'" onmouseout="this.className='trout'">
             <td class="tdcenter2">2</td>
-            <td class="tdcenter2"><a href="systemLog.html">张三</a></td>
-            <td class="tdcenter2">荷官</td>
+            <td class="tdcenter2"><a href="systemAdminLog.jsp">王丽</a></td>
+            <td class="tdcenter2">客服</td>
             <td class="tdcenter2">192.168.1.1</td>
             <td class="tdcenter2">20101-10-06 09:12:20 </td>
             <td class="tdcenter2"><span class="tdcenter_red">停用</span></td>
-            <td class="tdcenter2"><a href="systemadminEdit.html">编辑</a> / <a href="#">删除</a> </td>
+            <td class="tdcenter2"><span class="tdcenter_red">解绑</span></td>
+            <td class="tdcenter2"><a href="systemAdminPassword.jsp">修改密码</a> / <a href="systemAdminPermission.jsp">设置权限</a> / <a href="#">删除</a> </td>
           </tr>
           <tr onmouseover="this.className='trover'" onmouseout="this.className='trout'">
             <td class="tdcenter">1</td>
-            <td class="tdcenter"><a href="systemLog.html">张三</a></td>
-            <td class="tdcenter">超管</td>
+            <td class="tdcenter"><a href="systemAdminLog.jsp">豆豆</a></td>
+            <td class="tdcenter">股东</td>
             <td class="tdcenter">192.168.1.1</td>
             <td class="tdcenter">20101-10-06 09:12:20 </td>
             <td class="tdcenter">启用</td>
-            <td class="tdcenter"><a href="systemadminEdit1.html">编辑</a> / <a href="#">删除</a> </td>
+            <td class="tdcenter">绑定</td>
+            <td class="tdcenter"><a href="systemAdminPassword.jsp">修改密码</a> / <a href="systemAdminPermission.jsp">设置权限</a> / <a href="#">删除</a> </td>
           </tr>
         </table>
 </body>

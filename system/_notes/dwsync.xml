@@ -8,6 +8,10 @@
 <file name="dataManage.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130615421147129662" remote="130615421140000000" Dst="0" />
 <file name="bubblePointSettings.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130615423488113559" remote="130615423480000000" Dst="0" />
 <file name="onlineCount.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130615426058900600" remote="130615426050000000" Dst="0" />
-<file name="dataCount.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130614625150246978" remote="130614625150000000" Dst="0" />
-<file name="systemAdmin.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130615411856538271" remote="130615411850000000" Dst="0" />
+<file name="dataCount.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130615581465300694" remote="130615581460000000" Dst="0" />
+<file name="systemAdmin.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130615507862140834" remote="130615507860000000" Dst="0" />
+<file name="systemAdminLog.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130615493031952596" remote="130615493030000000" Dst="0" />
+<file name="systemAdminPassword.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130615507529571813" remote="130615507520000000" Dst="0" />
+<file name="systemAdminPermission.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130615510181613501" remote="130615510180000000" Dst="0" />
+<file name="systemAdminAdd.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130615509947480109" remote="130615509940000000" Dst="0" />
 </dwsync>
