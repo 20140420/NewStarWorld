@@ -29,7 +29,7 @@ body{
 .system_logo {
 	width: 181px;
 	float: left;
-	text-align: right;
+	text-align: center;
 	margin: 0px;
 	height: 66px;
 }
@@ -107,8 +107,9 @@ div.menu_childs ul li a:hover{ color:#fff; background:#3f3f3f; text-decoration: 
 .state ul{ width:100%; height:inherit; float:left; margin:5px 0px;}
 .state_logo {
 	height: auto;
-	width: 5%;
+	width: 20px;
 	float: left;
+	text-align: center;
 }
 .state_logo img{
 	height: 16px;

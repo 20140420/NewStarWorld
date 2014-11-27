@@ -2,6 +2,7 @@
 /* CSS Document */
 .main_left {
 	table-layout: auto;
+	WIDTH: 180px;
 	/*background-image: url(../images/left_bg.gif);*/
 }
 .main_left_top{
@@ -10,12 +11,17 @@
 	background-color: #fff;
 	/*background-image: url(../images/left_menu_bg.gif);*/
 }
+.left_title_bg {
+	background-image: url(../images/nov_lftitlebg.png);
+	background-repeat: no-repeat;
+	height: 39px;
+}
 .main_left_title{
 	text-align: center;
 	/*padding-left: 15px;*/
 	font-size: 14px;
 	font-weight: bold;
-	color: #000;
+	color: #FFF;
 }
 .left_iframe{
 	HEIGHT: 92%;
@@ -40,3 +46,4 @@ td { font-size:12px; font-family : tahoma, , fantasy;}
 	margin-bottom: 0px;
 	margin-left: 10px;
 }
+
