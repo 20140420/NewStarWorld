@@ -14,6 +14,7 @@
         <td class="menutop">系统银子</td>
         <td class="menutop">总发行</td>
         <td class="menutop">损耗</td>
+        <td class="menutop">详情</td>
         <td class="menutop">导出</td>
         <td class="menutop">备份</td>
       </tr>
@@ -22,6 +23,7 @@
         <td class="tdcenter">&nbsp;</td>
         <td class="tdcenter">&nbsp;</td>
         <td class="tdcenter">&nbsp;</td>
+        <td class="tdcenter">查看</td>
         <td class="tdcenter">导出</td>
         <td class="tdcenter"><a href="robotmoneyView.html">备份</a></td>
       </tr>
@@ -30,6 +32,7 @@
         <td class="tdcenter2">&nbsp;</td>
         <td class="tdcenter2">&nbsp;</td>
         <td class="tdcenter2">&nbsp;</td>
+        <td class="tdcenter2">查看</td>
         <td class="tdcenter2">导出</td>
         <td class="tdcenter2"><a href="robotmoneyView.html">备份</a></td>
       </tr>
@@ -38,6 +41,7 @@
         <td class="tdcenter">&nbsp;</td>
         <td class="tdcenter">&nbsp;</td>
         <td class="tdcenter">&nbsp;</td>
+        <td class="tdcenter">查看</td>
         <td class="tdcenter">导出</td>
         <td class="tdcenter"><a href="robotmoneyView.html">备份</a></td>
       </tr>
@@ -46,6 +50,7 @@
         <td class="tdcenter2">&nbsp;</td>
         <td class="tdcenter2">&nbsp;</td>
         <td class="tdcenter2">&nbsp;</td>
+        <td class="tdcenter2">查看</td>
         <td class="tdcenter2">导出</td>
         <td class="tdcenter2"><a href="robotmoneyView.html">备份</a></td>
       </tr>
