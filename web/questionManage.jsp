@@ -1,0 +1,156 @@
+<%@ page contentType="text/html; charset=utf-8" language="java" import="java.sql.*" errorPage="" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="../css/main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <Div class="title">问题管理<span>
+	  <form id="form1" name="form1" method="post" action="/adm/web/issueList.do">
+        <label>
+		<select name="nullity" id="nullity" class="Select" onchange="form1.submit()" >
+		<option value="0">发布</option>
+		<option value="1">锁定</option>
+        </select>
+        <input type="text" name="termOne" id="termOne" value="" />
+        <input name="Submit4" type="button" class="input" value="搜索" onClick="search()"/>
+        </label>	  
+		
+		<label>
+	  <input name="Submit" type="button" class="input" value="新增" onclick="window.location.href='/adm/web/issueadd.jsp'"/>
+	  </label>
+	  </form>
+	</span></Div>
+	   <form id="form2" name="form2" method="post" action="">
+	   <tr>
+            <td colspan="24" class="menutop">
+                <div align="left">
+                 <input type="button" name="Submit3" class="input" value="删除" onclick="tjSubmit(0)" />
+                  <input type="button" name="Submit4" class="input" value="发布" onclick="tjSubmit(1)" />
+                  <input type="button" name="Submit5" class="input" value="锁定" onclick="tjSubmit(2)" />
+                    </div>            </td>
+          </tr>
+		<table width="100%" border="0" cellpadding="0" cellspacing="0" class="table_margin">
+          <tr>
+            <td width="60" class="menutop"><label>
+              <input type="checkbox" name="checkAll" value="checkAll" onClick="checkAllBox(0)" />
+            </label></td>
+            <td width="60" class="menutop">问题标识</td>
+            <td class="menutop">问题标题</td>
+            <td class="menutop">禁用状态</td>
+            <td class="menutop">新增日期</td>
+            <td class="menutop">修改日期</td>
+          </tr>
+		  
+          <tr onmouseOver="this.className='trover'" onmouseOut="this.className='trout'">
+            <td class="tdcenter"><label>
+              <input type="checkbox" name="checkbox" value="8" />
+            </label></td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=8'" class="tdcenter">8</td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=8'" class="tdcenter">更新问题</td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=8'" class="tdcenter">否</td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=8'" class="tdcenter">2013-11-27 16:52:18</td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=8'" class="tdcenter">2013-11-27 17:10:07</td>
+          </tr>
+		  
+          <tr onmouseOver="this.className='trover'" onmouseOut="this.className='trout'">
+            <td class="tdcenter2"><label>
+              <input type="checkbox" name="checkbox" value="7" />
+            </label></td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=7'" class="tdcenter2">7</td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=7'" class="tdcenter2">下载问题</td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=7'" class="tdcenter2">否</td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=7'" class="tdcenter2">2013-11-27 16:51:31</td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=7'" class="tdcenter2">2014-11-04 14:47:56</td>
+          </tr>
+		  
+          <tr onmouseOver="this.className='trover'" onmouseOut="this.className='trout'">
+            <td class="tdcenter"><label>
+              <input type="checkbox" name="checkbox" value="6" />
+            </label></td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=6'" class="tdcenter">6</td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=6'" class="tdcenter">游戏问题</td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=6'" class="tdcenter">否</td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=6'" class="tdcenter">2013-11-27 16:50:20</td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=6'" class="tdcenter">2013-11-27 17:25:53</td>
+          </tr>
+		  
+          <tr onmouseOver="this.className='trover'" onmouseOut="this.className='trout'">
+            <td class="tdcenter2"><label>
+              <input type="checkbox" name="checkbox" value="5" />
+            </label></td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=5'" class="tdcenter2">5</td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=5'" class="tdcenter2">防盗问题</td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=5'" class="tdcenter2">否</td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=5'" class="tdcenter2">2013-11-27 16:39:48</td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=5'" class="tdcenter2">2014-11-04 14:50:46</td>
+          </tr>
+		  
+          <tr onmouseOver="this.className='trover'" onmouseOut="this.className='trout'">
+            <td class="tdcenter"><label>
+              <input type="checkbox" name="checkbox" value="4" />
+            </label></td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=4'" class="tdcenter">4</td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=4'" class="tdcenter">充值问题</td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=4'" class="tdcenter">否</td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=4'" class="tdcenter">2013-10-25 17:39:17</td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=4'" class="tdcenter">2014-11-04 14:49:32</td>
+          </tr>
+		  
+          <tr onmouseOver="this.className='trover'" onmouseOut="this.className='trout'">
+            <td class="tdcenter2"><label>
+              <input type="checkbox" name="checkbox" value="3" />
+            </label></td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=3'" class="tdcenter2">3</td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=3'" class="tdcenter2">兑换问题</td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=3'" class="tdcenter2">否</td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=3'" class="tdcenter2">2013-10-25 17:38:50</td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=3'" class="tdcenter2">2013-10-25 17:38:50</td>
+          </tr>
+		  
+          <tr onmouseOver="this.className='trover'" onmouseOut="this.className='trout'">
+            <td class="tdcenter"><label>
+              <input type="checkbox" name="checkbox" value="2" />
+            </label></td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=2'" class="tdcenter">2</td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=2'" class="tdcenter">注册问题</td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=2'" class="tdcenter">否</td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=2'" class="tdcenter">2013-10-25 17:38:30</td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=2'" class="tdcenter">2013-10-25 17:38:30</td>
+          </tr>
+		  
+          <tr onmouseOver="this.className='trover'" onmouseOut="this.className='trout'">
+            <td class="tdcenter2"><label>
+              <input type="checkbox" name="checkbox" value="1" />
+            </label></td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=1'" class="tdcenter2">1</td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=1'" class="tdcenter2">热点问题</td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=1'" class="tdcenter2">否</td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=1'" class="tdcenter2">2013-10-25 17:34:13</td>
+            <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=1'" class="tdcenter2">2013-10-25 17:38:06</td>
+          </tr>
+		  
+          <tr>
+		  <tr>
+                <td class="tdcenter" colspan="27" align="center" valign="middle" bgcolor="#FFFFFF">
+				<font color="red"></font></td>
+       </tr>
+            <td colspan="12" class="tdright_new">总记录:8条/1页 
+           
+　<a onClick="changepage(1)" style="cursor:hand">首页</a> 
+	<a onClick="changepage(0)" style="cursor:hand">上页</a> 
+	<select name="select" onChange="jumppage(this.value);">
+           <option value="1" 
+              selected="selected"
+            >第1页
+            </option>
+          
+        </select> &nbsp;<a onClick="changepage(2)" style="cursor:hand">下页</a> 
+        <a onClick="changepage(1)" style="cursor:hand">末页</a>		</td>
+          </tr>
+        </table>
+	</form>
+</body>
+</html>

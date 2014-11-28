@@ -7,7 +7,7 @@
 <link href="../css/main.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-	<Div class="title">问题</Div>
+	<Div class="title">限制IP地址</Div>
     <table width="100%" border="0" cellpadding="0" cellspacing="0" class="table_margin">
       <tr>
         <td height="28" class="menutop">名称</td>

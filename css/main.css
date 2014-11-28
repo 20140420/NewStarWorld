@@ -138,15 +138,15 @@ td {
 	font-family: "微软雅黑";
 }
 .tdcenter a, .tdcenter2 a{
-	color: #666;
+	color: #333;
 	text-decoration: none;
 }
 .tdcenter a:visited, .tdcenter2 a:visited{
-	color: #CCC;
+	color: #000;
 	text-decoration: none;
 }
 .tdcenter a:hover, .tdcenter2 a:hover{
-	color: #000;
+	color: #666;
 	text-decoration: none;
 }
 .tdlefts {	font-size: 12px;text-align: left; height:26px; line-height:26px;	 border-bottom:solid 1px #d0d0d0;border-right:solid 1px #d0d0d0; background:#fff; padding-left:5px;}

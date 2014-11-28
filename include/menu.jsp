@@ -27,8 +27,8 @@
                     <LI><A href="account/integralManage.jsp" target=frmright>积分管理</A></LI>
                     <LI><A href="account/charmManage.jsp" target=frmright>魅力管理</A></LI>
                     <LI><A href="account/medalManage.jsp" target=frmright>奖牌管理</A></LI>
-                    <LI><A href="account/internetProtocol.jsp" target=frmright>现在IP地址</A></LI>
                     <LI><A href="account/robotManage.jsp" target=frmright>机器人管理</A></LI>
+                    <LI><A href="account/limitIP.jsp" target=frmright>限制IP地址</A></LI>
                     <LI><A href="account/limitUser.jsp" target=frmright>限制用户名</A></LI>
                     <LI><A href="account/limitRobot.jsp" target=frmright>限制机器码</A></LI>
                     </UL></DIV>
@@ -92,10 +92,10 @@
               <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);><a href="#"><span>网站内容</span></a>
                 <DIV class=menu_childs onmouseout=Menus.Hide(0);>
                 <UL>
-                    <LI><A href="web/help.jsp" target=frmright>帮助</A></LI>
-                    <LI><A href="web/news.jsp" target=frmright>新闻</A></LI>
-                    <LI><A href="web/notice.jsp" target=frmright>公告</A></LI>
-                    <LI><A href="web/question.jsp" target=frmright>问题</A></LI>
+                    <LI><A href="web/helpCenter.jsp" target=frmright>帮助中心</A></LI>
+                    <LI><A href="web/noticeManage.jsp" target=frmright>公告管理</A></LI>
+                    <LI><A href="web/questionManage.jsp" target=frmright>问题管理</A></LI>
+                    <LI><A href="web/newsManage.jsp" target=frmright>新闻管理</A></LI>
                     <LI><A href="web/goodsManage.jsp" target=frmright>商品管理</A></LI>
                     <LI><A href="web/gameRule.jsp" target=frmright>游戏规则</A></LI>
                     <LI><A href="web/advertManage.jsp" target=frmright>广告管理</A></LI>
