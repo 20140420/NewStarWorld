@@ -15,27 +15,27 @@
       <td class="menutop">值</td>
     </tr>
     <tr>
-      <td height="25" colspan="4" class="tdright">  <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=AllScoreIn57Game">总游戏币</A> |  <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=AllScoreIn57GameRest">总剩余游戏币</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=BankPrerequisite">存取条件</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=RechargeRate">充值比率</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=DrawTake">取款比率</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=EnjoinInsure">钱庄服务</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=EnjoinLogon">登录服务</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=EnjoinRegister">注册服务</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=GrantIPCount">注册IP限制</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=GrantScoreCount">注册赠送</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=MedalRate">奖牌返率</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=RevenueRateTake">取款税率</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=RevenueRateTransfer">转账税率</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=TransferNullity">转账是否收税</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=TransferPrerequisite">转账条件</A> | <A href="<%=request.getContextPath()%>/system/PreUpdateGradeCS.do">会员退水利率设置</A> | <A href="<%=request.getContextPath()%>/system/Pre3DUpdateNetCS.do">综合设置</A></td>
+      <td height="25" colspan="4" class="tdcenter2">  <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=AllScoreIn57Game">总游戏币</A> |  <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=AllScoreIn57GameRest">总剩余游戏币</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=BankPrerequisite">存取条件</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=RechargeRate">充值比率</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=DrawTake">取款比率</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=EnjoinInsure">钱庄服务</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=EnjoinLogon">登录服务</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=EnjoinRegister">注册服务</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=GrantIPCount">注册IP限制</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=GrantScoreCount">注册赠送</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=MedalRate">奖牌返率</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=RevenueRateTake">取款税率</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=RevenueRateTransfer">转账税率</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=TransferNullity">转账是否收税</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=TransferPrerequisite">转账条件</A> | <A href="<%=request.getContextPath()%>/system/PreUpdateGradeCS.do">会员退水利率设置</A> | <A href="<%=request.getContextPath()%>/system/Pre3DUpdateNetCS.do">综合设置</A></td>
     </tr>
     <tr	align="center">
-      <td class="menutop">键名：</td>
+      <td class="tdcenter2">键名：</td>
       <td width="80%" class="tdright">
       <input name="StatusName" value="${dto.statusName}" readonly /></td>
     </tr>
     <tr	align="center">
-      <td class="menutop">键值：</td>
+      <td class="tdcenter2">键值：</td>
       <td class="tdright"><input name="StatusValue" value="${dto.statusValue}" /></td>
     </tr>
 	 <tr align="center">
-      <td class="menutop">名称：</td>
+      <td class="tdcenter2">名称：</td>
       <td class="tdright"><input name="StatusTip" value="${dto.statusTip}" /></td>
     </tr>
 	 <tr align="center">
-	   <td class="menutop">备注：</td>
+	   <td class="tdcenter2">备注：</td>
 	   <td class="tdright"><textarea name="StatusString" rows="3" cols="50"></textarea></td>
     </tr>
 	<tr align="center">
-      <td class="menutop">描述：</td>
+      <td class="tdcenter2">描述：</td>
       <td class="tdright"><textarea name="StatusDescription" rows="5" cols="50"></textarea></td>
     </tr>
 	

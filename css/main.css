@@ -148,7 +148,7 @@ td {
 }
 .tdcenter a:hover, .tdcenter2 a:hover{
 	color: #000;
-	text-decoration: underline;
+	text-decoration: none;
 }
 .tdlefts {	font-size: 12px;text-align: left; height:26px; line-height:26px;	 border-bottom:solid 1px #d0d0d0;border-right:solid 1px #d0d0d0; background:#fff; padding-left:5px;}
 .tdlefts a:link,.tdlefts a:visited,.tdlefts a:hover{ color:#369; text-decoration:none;}
