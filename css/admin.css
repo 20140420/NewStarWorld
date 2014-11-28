@@ -6,9 +6,10 @@
 	/*background-image: url(../images/left_bg.gif);*/
 }
 .main_left_top{
-	padding-top: 1px !important;
-	padding-top: 5px;
+	padding: 1px 0px 0px 0px !important;
+	padding: 5px 0px 0px 0px;
 	background-color: #fff;
+	margin: 0px;
 	/*background-image: url(../images/left_menu_bg.gif);*/
 }
 .left_title_bg {
@@ -29,6 +30,8 @@
 	VISIBILITY: inherit;
 	WIDTH: 100%;
 	background: transparent;
+	margin: 0px;
+	padding: 0px;
 }
 .main_iframe{
 	HEIGHT: 99%;

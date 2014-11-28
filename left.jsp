@@ -8,7 +8,7 @@
 <BODY>
 <table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
   <tr>
-    <td valign="top" style="padding-top:10px; ">
+    <td valign="top">
 		<table class="alpha">
 		  <tr>
 			<td valign="top" class="menu" id="menubar">
