@@ -12,34 +12,42 @@
       <tr>
         <td height="28" class="menutop">名称</td>
         <td class="menutop">系统银子</td>
-        <td class="menutop">充值</td>
-        <td class="menutop">赠送</td>
-        <td class="menutop">扣税</td>
-        <td class="menutop">机器人输赢</td>
+        <td class="menutop">总发行</td>
+        <td class="menutop">损耗</td>
+        <td class="menutop">导出</td>
+        <td class="menutop">备份</td>
       </tr>
       <tr>
-        <td class="tdcenter">公司</td>
-        <td class="tdcenter"><a href="usermoneyView.html">0</a></td>
-        <td class="tdcenter"><a href="userpay.html">1000</a></td>
-        <td class="tdcenter"><a href="userpay.html">100</a></td>
-        <td class="tdcenter"><a href="taxmoneyView.html">400</a></td>
-        <td class="tdcenter"><a href="robotmoneyView.html">2000</a></td>
+        <td class="tdcenter">百人游戏</td>
+        <td class="tdcenter">&nbsp;</td>
+        <td class="tdcenter">&nbsp;</td>
+        <td class="tdcenter">&nbsp;</td>
+        <td class="tdcenter">导出</td>
+        <td class="tdcenter"><a href="robotmoneyView.html">备份</a></td>
       </tr>
       <tr>
-        <td class="tdcenter2">公司</td>
-        <td class="tdcenter2"><a href="usermoneyView.html">0</a></td>
-        <td class="tdcenter2"><a href="userpay.html">1000</a></td>
-        <td class="tdcenter2"><a href="userpay.html">100</a></td>
-        <td class="tdcenter2"><a href="taxmoneyView.html">400</a></td>
-        <td class="tdcenter2"><a href="robotmoneyView.html">2000</a></td>
+        <td class="tdcenter2">竞技游戏</td>
+        <td class="tdcenter2">&nbsp;</td>
+        <td class="tdcenter2">&nbsp;</td>
+        <td class="tdcenter2">&nbsp;</td>
+        <td class="tdcenter2">导出</td>
+        <td class="tdcenter2"><a href="robotmoneyView.html">备份</a></td>
       </tr>
       <tr>
-        <td class="tdcenter">公司</td>
-        <td class="tdcenter"><a href="usermoneyView.html">0</a></td>
-        <td class="tdcenter"><a href="userpay.html">1000</a></td>
-        <td class="tdcenter"><a href="userpay.html">100</a></td>
-        <td class="tdcenter"><a href="taxmoneyView.html">400</a></td>
-        <td class="tdcenter"><a href="robotmoneyView.html">2000</a></td>
+        <td class="tdcenter">彩票游戏</td>
+        <td class="tdcenter">&nbsp;</td>
+        <td class="tdcenter">&nbsp;</td>
+        <td class="tdcenter">&nbsp;</td>
+        <td class="tdcenter">导出</td>
+        <td class="tdcenter"><a href="robotmoneyView.html">备份</a></td>
+      </tr>
+      <tr>
+        <td class="tdcenter2">电子游艺</td>
+        <td class="tdcenter2">&nbsp;</td>
+        <td class="tdcenter2">&nbsp;</td>
+        <td class="tdcenter2">&nbsp;</td>
+        <td class="tdcenter2">导出</td>
+        <td class="tdcenter2"><a href="robotmoneyView.html">备份</a></td>
       </tr>
     </table>
     <h1>&nbsp;</h1>

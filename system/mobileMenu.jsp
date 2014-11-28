@@ -10,38 +10,68 @@
 	<Div class="title">手机菜单</Div>
     <table width="100%" border="0" cellpadding="0" cellspacing="0" class="table_margin">
       <tr>
-        <td height="28" class="menutop">名称</td>
-        <td class="menutop">系统银子</td>
-        <td class="menutop">充值</td>
-        <td class="menutop">赠送</td>
-        <td class="menutop">扣税</td>
-        <td class="menutop">机器人输赢</td>
+        <td height="28" class="menutop">日期</td>
+        <td class="menutop">账户</td>
+        <td class="menutop">财务（元）</td>
+        <td class="menutop">报表</td>
+        <td class="menutop">备注</td>
+        <td class="menutop">编辑</td>
+        <td class="menutop">查看</td>
+        <td class="menutop">导出</td>
       </tr>
       <tr>
-        <td class="tdcenter">公司</td>
-        <td class="tdcenter"><a href="usermoneyView.html">0</a></td>
-        <td class="tdcenter"><a href="userpay.html">1000</a></td>
-        <td class="tdcenter"><a href="userpay.html">100</a></td>
-        <td class="tdcenter"><a href="taxmoneyView.html">400</a></td>
-        <td class="tdcenter"><a href="robotmoneyView.html">2000</a></td>
+        <td class="tdcenter">今日</td>
+        <td class="tdcenter"></td>
+        <td class="tdcenter"></td>
+        <td class="tdcenter"></td>
+        <td class="tdcenter">&nbsp;</td>
+        <td class="tdcenter">&nbsp;</td>
+        <td class="tdcenter"></td>
+        <td class="tdcenter">导出</td>
       </tr>
       <tr>
-        <td class="tdcenter2">公司</td>
-        <td class="tdcenter2"><a href="usermoneyView.html">0</a></td>
-        <td class="tdcenter2"><a href="userpay.html">1000</a></td>
-        <td class="tdcenter2"><a href="userpay.html">100</a></td>
-        <td class="tdcenter2"><a href="taxmoneyView.html">400</a></td>
-        <td class="tdcenter2"><a href="robotmoneyView.html">2000</a></td>
+        <td class="tdcenter2">昨日</td>
+        <td class="tdcenter2"></td>
+        <td class="tdcenter2"></td>
+        <td class="tdcenter2"></td>
+        <td class="tdcenter2">&nbsp;</td>
+        <td class="tdcenter2">&nbsp;</td>
+        <td class="tdcenter2"></td>
+        <td class="tdcenter2">导出</td>
       </tr>
       <tr>
-        <td class="tdcenter">公司</td>
-        <td class="tdcenter"><a href="usermoneyView.html">0</a></td>
-        <td class="tdcenter"><a href="userpay.html">1000</a></td>
-        <td class="tdcenter"><a href="userpay.html">100</a></td>
-        <td class="tdcenter"><a href="taxmoneyView.html">400</a></td>
-        <td class="tdcenter"><a href="robotmoneyView.html">2000</a></td>
+        <td class="tdcenter">2014-11-25</td>
+        <td class="tdcenter"></td>
+        <td class="tdcenter"></td>
+        <td class="tdcenter"></td>
+        <td class="tdcenter">&nbsp;</td>
+        <td class="tdcenter">&nbsp;</td>
+        <td class="tdcenter"></td>
+        <td class="tdcenter">导出</td>
       </tr>
+      <tr>
+        <td class="tdcenter2">2014-11-24</td>
+        <td class="tdcenter2"></td>
+        <td class="tdcenter2"></td>
+        <td class="tdcenter2"></td>
+        <td class="tdcenter2">&nbsp;</td>
+        <td class="tdcenter2">&nbsp;</td>
+        <td class="tdcenter2"></td>
+        <td class="tdcenter2">导出</td>
+      </tr>
+      <tr>
+        <td class="tdcenter">2014-11-23</td>
+        <td class="tdcenter"></td>
+        <td class="tdcenter"></td>
+        <td class="tdcenter"></td>
+        <td class="tdcenter">&nbsp;</td>
+        <td class="tdcenter">&nbsp;</td>
+        <td class="tdcenter"></td>
+        <td class="tdcenter">导出</td>
+      </tr>
+      <tr>
+		<td colspan="10" class="tdright_new">共10页 当前页1页 <a href="#">首页</a> <a href="#">上一页</a> <a href="#">下一页</a> <a href="#">末页</a> </td>
+	  </tr>
     </table>
-    <h1>&nbsp;</h1>
 </body>
 </html>

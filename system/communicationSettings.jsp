@@ -10,36 +10,49 @@
 	<Div class="title">通讯设置</Div>
     <table width="100%" border="0" cellpadding="0" cellspacing="0" class="table_margin">
       <tr>
-        <td height="28" class="menutop">名称</td>
-        <td class="menutop">系统银子</td>
-        <td class="menutop">充值</td>
-        <td class="menutop">赠送</td>
-        <td class="menutop">扣税</td>
-        <td class="menutop">机器人输赢</td>
+        <td height="28" class="menutop">通讯方式</td>
+        <td class="menutop">公司官网</td>
+        <td class="menutop">百人游戏</td>
+        <td class="menutop">竞技游戏</td>
+        <td class="menutop">彩票游戏</td>
+        <td class="menutop">电子游艺</td>
+        <td class="menutop">操作</td>
       </tr>
       <tr>
-        <td class="tdcenter">公司</td>
-        <td class="tdcenter"><a href="usermoneyView.html">0</a></td>
-        <td class="tdcenter"><a href="userpay.html">1000</a></td>
-        <td class="tdcenter"><a href="userpay.html">100</a></td>
-        <td class="tdcenter"><a href="taxmoneyView.html">400</a></td>
-        <td class="tdcenter"><a href="robotmoneyView.html">2000</a></td>
+        <td class="tdcenter">邮件设置</td>
+        <td class="tdcenter">&nbsp;</td>
+        <td class="tdcenter">&nbsp;</td>
+        <td class="tdcenter">&nbsp;</td>
+        <td class="tdcenter">&nbsp;</td>
+        <td class="tdcenter">&nbsp;</td>
+        <td class="tdcenter"><a href="#">编辑</a></td>
       </tr>
       <tr>
-        <td class="tdcenter2">公司</td>
-        <td class="tdcenter2"><a href="usermoneyView.html">0</a></td>
-        <td class="tdcenter2"><a href="userpay.html">1000</a></td>
-        <td class="tdcenter2"><a href="userpay.html">100</a></td>
-        <td class="tdcenter2"><a href="taxmoneyView.html">400</a></td>
-        <td class="tdcenter2"><a href="robotmoneyView.html">2000</a></td>
+        <td class="tdcenter2">短信设置</td>
+        <td class="tdcenter2">&nbsp;</td>
+        <td class="tdcenter2">&nbsp;</td>
+        <td class="tdcenter2">&nbsp;</td>
+        <td class="tdcenter2">&nbsp;</td>
+        <td class="tdcenter2">&nbsp;</td>
+        <td class="tdcenter2"><a href="#">编辑</a></td>
       </tr>
       <tr>
-        <td class="tdcenter">公司</td>
-        <td class="tdcenter"><a href="usermoneyView.html">0</a></td>
-        <td class="tdcenter"><a href="userpay.html">1000</a></td>
-        <td class="tdcenter"><a href="userpay.html">100</a></td>
-        <td class="tdcenter"><a href="taxmoneyView.html">400</a></td>
-        <td class="tdcenter"><a href="robotmoneyView.html">2000</a></td>
+        <td class="tdcenter">QQ客服设置</td>
+        <td class="tdcenter">&nbsp;</td>
+        <td class="tdcenter">&nbsp;</td>
+        <td class="tdcenter">&nbsp;</td>
+        <td class="tdcenter">&nbsp;</td>
+        <td class="tdcenter">&nbsp;</td>
+        <td class="tdcenter"><a href="#">编辑</a></td>
+      </tr>
+      <tr>
+        <td class="tdcenter2">在线客服</td>
+        <td class="tdcenter2">&nbsp;</td>
+        <td class="tdcenter2">&nbsp;</td>
+        <td class="tdcenter2">&nbsp;</td>
+        <td class="tdcenter2">&nbsp;</td>
+        <td class="tdcenter2">&nbsp;</td>
+        <td class="tdcenter2"><a href="#">编辑</a></td>
       </tr>
     </table>
     <h1>&nbsp;</h1>

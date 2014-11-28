@@ -139,11 +139,11 @@ td {
 	font-family: "微软雅黑";
 }
 .tdcenter a, .tdcenter2 a{
-	color: #333;
+	color: #666;
 	text-decoration: none;
 }
 .tdcenter a:visited, .tdcenter2 a:visited{
-	color: #666;
+	color: #CCC;
 	text-decoration: none;
 }
 .tdcenter a:hover, .tdcenter2 a:hover{
