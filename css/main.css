@@ -44,6 +44,7 @@ td {
 	border-bottom-width: 2px;
 	border-bottom-style: solid;
 	border-bottom-color: #000000;
+	font-family: "微软雅黑";
 }
 .title span{ float:right; padding-right:5px;}
 .input { margin:0px; padding:0px 0px 0px 1px; border:1px solid #9dc8e4; background:url(../images/bottom.gif) repeat-x; height:24px; line-height:24px; color:#292929; text-align:center; overflow:hidden; font-size:12px; width:70px;}
@@ -113,6 +114,7 @@ td {
 	line-height: 25px;
 	padding-left: 5px;
 	border: 1px solid #d0d0d0;
+	font-family: "微软雅黑";
 }
 .menutop a:link,.menutop a:visited,.menutop a:hover{ color:#f60; text-decoration:none;}
 
@@ -125,6 +127,7 @@ td {
 	text-align: center;
 	line-height: 24px;
 	border: 1px solid #d0d0d0;
+	font-family: "宋体";
 }
 .tdcenter2 {
 	background-color: #999;
@@ -133,6 +136,7 @@ td {
 	text-align: center;
 	line-height: 24px;
 	border: 1px solid #d0d0d0;
+	font-family: "微软雅黑";
 }
 .tdcenter a, .tdcenter2 a{
 	color: #333;
@@ -149,8 +153,21 @@ td {
 .tdlefts {	font-size: 12px;text-align: left; height:26px; line-height:26px;	 border-bottom:solid 1px #d0d0d0;border-right:solid 1px #d0d0d0; background:#fff; padding-left:5px;}
 .tdlefts a:link,.tdlefts a:visited,.tdlefts a:hover{ color:#369; text-decoration:none;}
 .tdcenter_blank {	font-size: 12px;text-align: center;	line-height: 24px; border-bottom:solid 1px #d0d0d0;border-right:solid 1px #d0d0d0; background:#e3e3e3;}
-.tdright_new {	font-size: 12px;text-align: right;line-height: 24px;border-bottom:solid 1px #d0d0d0;border-right:solid 1px #d0d0d0;border-left:solid 1px #fff; border-top:solid 1px #fff; padding-right:5px; }
-.tdright_new a:link,tdright_new a:visited,tdright_new a:hover{ color:#369; text-decoration:none;}
+.tdright_new {
+	font-size: 12px;
+	text-align: right;
+	line-height: 24px;
+	border-bottom: solid 1px #d0d0d0;
+	border-right: solid 1px #d0d0d0;
+	border-left: solid 1px #fff;
+	border-top: solid 1px #fff;
+	padding-right: 5px;
+	font-family: "宋体";
+}
+.tdright_new a:link,tdright_new a:visited,tdright_new a:hover{
+	color: #999;
+	text-decoration: none;
+}
 .tdright_new1 {	font-size: 12px;text-align: right;line-height: 24px;  padding-right:5px;}
 .tdcenter_black{font-size: 12px;	text-align: center;	line-height: 24px; color:#000;	font-weight:bold; border-bottom:solid 1px #d0d0d0;border-right:solid 1px #d0d0d0; background:#e3e3e3;}
 .tdcenter_black_14{font-size: 16px;	text-align: center;	line-height: 24px; color:#000;	font-weight:bold; border-bottom:solid 1px #d0d0d0;border-right:solid 1px #d0d0d0; background:#fff;}

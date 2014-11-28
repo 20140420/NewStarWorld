@@ -22,6 +22,7 @@
 	font-size: 14px;
 	font-weight: bold;
 	color: #FFF;
+	font-family: "微软雅黑";
 }
 .left_iframe{
 	HEIGHT: 96%;
@@ -36,8 +37,8 @@
 	Z-INDEX: 0;
 	margin-left: 0px;
 }
-table { font-size:12px; font-family : tahoma, , fantasy; }
-td { font-size:12px; font-family : tahoma, , fantasy;}
+table { font-size:12px; font-family :宋体, tahoma,, fantasy; }
+td { font-size:12px; font-family : 宋体,tahoma, fantasy;}
 #menu_2 {
 	font-size: 14px;
 	float: left;
@@ -45,4 +46,5 @@ td { font-size:12px; font-family : tahoma, , fantasy;}
 	margin-right: 10px;
 	margin-bottom: 0px;
 	margin-left: 10px;
+	font-family: "宋体";
 }
