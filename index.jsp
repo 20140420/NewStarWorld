@@ -80,7 +80,7 @@ width="100%" border=0>
             src="images/right.gif"></SPAN> </TD></TR></TBODY></TABLE></TD>
     <!-- 3右主体内容 -->
     <TD vAlign=top width="100%" >
-      <IFRAME class=main_iframe id=frmright name=frmright src="notice.jsp" frameBorder=0 scrolling=yes></IFRAME>
+      <IFRAME class=main_iframe id=frmright name=frmright src="system/dataCount.jsp" frameBorder=0 scrolling=yes></IFRAME>
       <TABLE style="BACKGROUND: #FFF" cellSpacing=0 cellPadding=0 width="100%" border=0>
         <TBODY>
         <TR>

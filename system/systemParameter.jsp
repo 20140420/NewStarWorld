@@ -8,47 +8,190 @@
 </head>
 <body>
 	<Div class="title">参数设置</Div>
-<form id="form1" name="form1" method="post" action="<%=request.getContextPath()%>/system/NetCS.do?action=update">
-  <table cellpadding="2" cellspacing="1" border="0" width="100%" align="center">
-    <tr>
-      <td width="120" class="menutop">属性</td>
-      <td class="menutop">值</td>
-    </tr>
-    <tr>
-      <td height="25" colspan="4" class="tdcenter2">  <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=AllScoreIn57Game">总游戏币</A> |  <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=AllScoreIn57GameRest">总剩余游戏币</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=BankPrerequisite">存取条件</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=RechargeRate">充值比率</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=DrawTake">取款比率</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=EnjoinInsure">钱庄服务</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=EnjoinLogon">登录服务</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=EnjoinRegister">注册服务</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=GrantIPCount">注册IP限制</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=GrantScoreCount">注册赠送</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=MedalRate">奖牌返率</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=RevenueRateTake">取款税率</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=RevenueRateTransfer">转账税率</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=TransferNullity">转账是否收税</A> | <A href="<%=request.getContextPath()%>/system/NetCS.do?action=preUpdate&systemParam=TransferPrerequisite">转账条件</A> | <A href="<%=request.getContextPath()%>/system/PreUpdateGradeCS.do">会员退水利率设置</A> | <A href="<%=request.getContextPath()%>/system/Pre3DUpdateNetCS.do">综合设置</A></td>
-    </tr>
-    <tr	align="center">
-      <td class="tdcenter2">键名：</td>
-      <td width="80%" class="tdright">
-      <input name="StatusName" value="${dto.statusName}" readonly /></td>
-    </tr>
-    <tr	align="center">
-      <td class="tdcenter2">键值：</td>
-      <td class="tdright"><input name="StatusValue" value="${dto.statusValue}" /></td>
-    </tr>
-	 <tr align="center">
-      <td class="tdcenter2">名称：</td>
-      <td class="tdright"><input name="StatusTip" value="${dto.statusTip}" /></td>
-    </tr>
-	 <tr align="center">
-	   <td class="tdcenter2">备注：</td>
-	   <td class="tdright"><textarea name="StatusString" rows="3" cols="50"></textarea></td>
-    </tr>
-	<tr align="center">
-      <td class="tdcenter2">描述：</td>
-      <td class="tdright"><textarea name="StatusDescription" rows="5" cols="50"></textarea></td>
-    </tr>
-	
-    <tr	align="center">
-
-      <td colspan="2"><label>
-     <input type="submit" class="input" name="Submit" value="提交"/>
-     &nbsp; 
-     <input type="reset" class="input"  value="重置"/>
-	 <input type="hidden" name="id" value="1" />
-      </label></td>
-    </tr>
-  </table>
-</form>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" class="table_margin">
+          <tr>
+            <td width="30" class="menutop">序号</td>
+            <td class="menutop">对象</td>
+            <td class="menutop">键名</td>
+            <td class="menutop">键值</td>
+            <td class="menutop">名称</td>
+            <td class="menutop">修改时间</td>
+            <td class="menutop">修改者</td>
+            <td class="menutop">备注</td>
+            <td class="menutop">描述</td>
+            <td class="menutop">操作</td>
+          </tr>
+          <tr onmouseover="this.className='trover'" onmouseout="this.className='trout'">
+            <td class="tdcenter">1</td>
+            <td class="tdcenter">综合设置</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">20101-10-06 09:12:20 </td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter"><a href="systemParameterSet.jsp">修改</a> / 初始化</td>
+          </tr>
+          <tr onmouseover="this.className='trover'" onmouseout="this.className='trout'">
+            <td class="tdcenter2">2</td>
+            <td class="tdcenter2">发行游戏币</td>
+            <td class="tdcenter2">AllScoreIn57Game</td>
+            <td class="tdcenter2">300000000000</td>
+            <td class="tdcenter2">总发行游戏币</td>
+            <td class="tdcenter2">20101-10-06 09:12:20 </td>
+            <td class="tdcenter2">admin</td>
+            <td class="tdcenter2">游戏平台总游戏币</td>
+            <td class="tdcenter2">总发行游戏币</td>
+            <td class="tdcenter2"><a href="systemParameterSet.jsp">修改</a> / <a href="#">初始化</a> </td>
+          </tr>
+          <tr onmouseover="this.className='trover'" onmouseout="this.className='trout'">
+            <td class="tdcenter">3</td>
+            <td class="tdcenter">库存游戏币</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">20101-10-06 09:12:20 </td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter"><a href="systemParameterSet.jsp">修改</a> / <a href="#">初始化</a> </td>
+          </tr>
+          <tr onmouseover="this.className='trover'" onmouseout="this.className='trout'">
+            <td class="tdcenter2">4</td>
+            <td class="tdcenter2">存取条件</td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2">20101-10-06 09:12:20 </td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2"><a href="systemParameterSet.jsp">修改</a> / <a href="#">初始化</a> </td>
+          </tr>
+          <tr onmouseover="this.className='trover'" onmouseout="this.className='trout'">
+            <td class="tdcenter">5</td>
+            <td class="tdcenter">取款比率</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">20101-10-06 09:12:20 </td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter"><a href="systemParameterSet.jsp">修改</a> / <a href="#">初始化</a> </td>
+          </tr>
+          <tr onmouseover="this.className='trover'" onmouseout="this.className='trout'">
+            <td class="tdcenter2">6</td>
+            <td class="tdcenter2">银行服务</td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2">20101-10-06 09:12:20 </td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2"><a href="systemParameterSet.jsp">修改</a> / <a href="#">初始化</a> </td>
+          </tr>
+          <tr onmouseover="this.className='trover'" onmouseout="this.className='trout'">
+            <td class="tdcenter">7</td>
+            <td class="tdcenter">登入服务</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">20101-10-06 09:12:20 </td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter"><a href="systemParameterSet.jsp">修改</a> / <a href="#">初始化</a> </td>
+          </tr>
+          <tr onmouseover="this.className='trover'" onmouseout="this.className='trout'">
+            <td class="tdcenter2">8</td>
+            <td class="tdcenter2">注册服务</td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2">20101-10-06 09:12:20 </td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2"><a href="systemParameterSet.jsp">修改</a> / <a href="#">初始化</a> </td>
+          </tr>
+          <tr onmouseover="this.className='trover'" onmouseout="this.className='trout'">
+            <td class="tdcenter">9</td>
+            <td class="tdcenter">注册IP限制</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">20101-10-06 09:12:20 </td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter"><a href="systemParameterSet.jsp">修改</a> / <a href="#">初始化</a> </td>
+          </tr>
+          <tr onmouseover="this.className='trover'" onmouseout="this.className='trout'">
+            <td class="tdcenter2">10</td>
+            <td class="tdcenter2">奖牌返率</td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2">20101-10-06 09:12:20 </td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2"><a href="systemParameterSet.jsp">修改</a> / <a href="#">初始化</a> </td>
+          </tr>
+          <tr onmouseover="this.className='trover'" onmouseout="this.className='trout'">
+            <td class="tdcenter">11</td>
+            <td class="tdcenter">银行充值比率</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">20101-10-06 09:12:20 </td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter"><a href="systemParameterSet.jsp">修改</a> / <a href="#">初始化</a> </td>
+          </tr>
+          <tr onmouseover="this.className='trover'" onmouseout="this.className='trout'">
+            <td class="tdcenter2">12</td>
+            <td class="tdcenter2">取款税率</td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2">20101-10-06 09:12:20 </td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2"><a href="systemParameterSet.jsp">修改</a> / <a href="#">初始化</a> </td>
+          </tr>
+          <tr onmouseover="this.className='trover'" onmouseout="this.className='trout'">
+            <td class="tdcenter">13</td>
+            <td class="tdcenter">转账税收</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">20101-10-06 09:12:20 </td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter">&nbsp;</td>
+            <td class="tdcenter"><a href="systemParameterSet.jsp">修改</a> / <a href="#">初始化</a> </td>
+          </tr>
+          <tr onmouseover="this.className='trover'" onmouseout="this.className='trout'">
+            <td class="tdcenter2">14</td>
+            <td class="tdcenter2">转账条件</td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2">20101-10-06 09:12:20 </td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2">&nbsp;</td>
+            <td class="tdcenter2"><a href="systemParameterSet.jsp">修改</a> / <a href="#">初始化</a> </td>
+          </tr>
+          <!--<tr>
+			<td colspan="10" class="tdright_new">共10页 当前页1页 <a href="#">首页</a> <a href="#">上一页</a> <a href="#">下一页</a> <a href="#">末页</a> </td>
+	  	  </tr>-->
+	</table>
 </body>
 </html>

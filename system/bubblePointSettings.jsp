@@ -7,9 +7,10 @@
 <link href="../css/main.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-	<Div class="title">泡点设置</Div>
+	<Div class="title">你当前位置：系统维护 - 泡点设置</Div>
     <table width="100%" border="0" cellpadding="0" cellspacing="0" class="table_margin">
       <tr>
+        <td class="menutop"><input type="checkbox" name="all" id="all" /></td>
         <td height="28" class="menutop">名称</td>
         <td class="menutop">系统银子</td>
         <td class="menutop">充值</td>
@@ -18,6 +19,7 @@
         <td class="menutop">机器人输赢</td>
       </tr>
       <tr>
+        <td class="tdcenter"><input type="checkbox" name="checkbox" id="checkbox" /></td>
         <td class="tdcenter">公司</td>
         <td class="tdcenter"><a href="usermoneyView.html">0</a></td>
         <td class="tdcenter"><a href="userpay.html">1000</a></td>
@@ -26,6 +28,7 @@
         <td class="tdcenter"><a href="robotmoneyView.html">2000</a></td>
       </tr>
       <tr>
+        <td class="tdcenter2"><input type="checkbox" name="checkbox" id="checkbox" /></td>
         <td class="tdcenter2">公司</td>
         <td class="tdcenter2"><a href="usermoneyView.html">0</a></td>
         <td class="tdcenter2"><a href="userpay.html">1000</a></td>
@@ -34,6 +37,7 @@
         <td class="tdcenter2"><a href="robotmoneyView.html">2000</a></td>
       </tr>
       <tr>
+        <td class="tdcenter"><input type="checkbox" name="checkbox" id="checkbox" /></td>
         <td class="tdcenter">公司</td>
         <td class="tdcenter"><a href="usermoneyView.html">0</a></td>
         <td class="tdcenter"><a href="userpay.html">1000</a></td>

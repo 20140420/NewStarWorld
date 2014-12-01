@@ -34,7 +34,7 @@ td {
 .title{
 	height: 27px;
 	line-height: 27px;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 	color: #666666;
 	padding-left: 5px;
 	font-weight: bold;
@@ -45,8 +45,17 @@ td {
 	border-bottom-style: solid;
 	border-bottom-color: #000000;
 	font-family: "微软雅黑";
+	margin-top: 20px;
+	width: auto;
 }
-.title span{ float:right; padding-right:5px;}
+.title span{
+	float: right;
+	padding-right: 5px;
+	border: 0px solid #FFF;
+}
+.title span select {
+	border: 1px solid #FFF;
+}
 .input { margin:0px; padding:0px 0px 0px 1px; border:1px solid #9dc8e4; background:url(../images/bottom.gif) repeat-x; height:24px; line-height:24px; color:#292929; text-align:center; overflow:hidden; font-size:12px; width:70px;}
 .input1 { margin:0px; padding:0px 0px 0px 1px; border:1px solid #9dc8e4; background:url(../images/bottom.gif) repeat-x; height:24px; line-height:24px; color:#292929; text-align:center; overflow:hidden; font-size:12px; width:80px;}
 .peilv {margin:0px; padding:0px 1px 0px 1px; border:1px solid #9dc8e4; height:20px; line-height:20px; color:#292929; text-align:center; overflow:hidden; width:60px;}
@@ -105,14 +114,14 @@ td {
 .tdright {text-align: left;line-height: 30px;	height:30px;font-size:12px;  border-bottom:solid 1px #d0d0d0;border-right:solid 1px #d0d0d0;border-left:solid 1px #fff; border-top:solid 1px #fff; padding-left:5px;}
 .tdright_1{text-align: left;line-height: 30px;	height:30px;font-size:12px;	 border-bottom:solid 1px #d0d0d0;border-right:solid 1px #d0d0d0; padding-left:5px;}
 .menutop {
-	background-color: #3f3f3f;
+	background-color: #4b4b4b;
 	font-size: 12px;
 	font-weight: bold;
 	color: #FFFFFF;
 	text-align: center;
 	height: 25px;
 	line-height: 25px;
-	border: 1px solid #d0d0d0;
+	border: 1px solid #909090;
 	font-family: "微软雅黑";
 }
 .menutop a:link,.menutop a:visited,.menutop a:hover{ color:#f60; text-decoration:none;}
@@ -125,16 +134,16 @@ td {
 	font-size: 12px;
 	text-align: center;
 	line-height: 24px;
-	border: 1px solid #d0d0d0;
+	border: 1px solid #909090;
 	font-family: "宋体";
 }
 .tdcenter2 {
-	background-color: #999;
+	background-color: #d5d5d5;
 	color: #000;
 	font-size: 12px;
 	text-align: center;
 	line-height: 24px;
-	border: 1px solid #d0d0d0;
+	border: 1px solid #909090;
 	font-family: "微软雅黑";
 }
 .tdcenter a, .tdcenter2 a{
@@ -156,12 +165,20 @@ td {
 	font-size: 12px;
 	text-align: right;
 	line-height: 24px;
-	border-bottom: solid 1px #d0d0d0;
-	border-right: solid 1px #d0d0d0;
-	border-left: solid 1px #fff;
-	border-top: solid 1px #fff;
 	padding-right: 5px;
 	font-family: "宋体";
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #fff;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #d0d0d0;
+	border-left-color: #fff;
 }
 .tdright_new a:link,tdright_new a:visited,tdright_new a:hover{
 	color: #999;
@@ -181,7 +198,7 @@ td {
 .tdcenter_red a{ color:#ff0000; text-decoration:none;}
 .tdcenter_red a:visited{ color:#ff0000; text-decoration:none;}
 .tdcenter_red a:hover{ color:#ff0000; text-decoration:none;}
-.table_margin{ margin-top:5px; border-left: solid 1px #d0d0d0;border-top: solid 1px #d0d0d0; }
+.table_margin{ margin-top:5px; border-top: solid 1px #d0d0d0; }
 .table_margingold{ margin-top:5px; border-left: solid 1px #d0d0d0;border-top: solid 1px #d0d0d0; width:130% }
 .input_text{ width:180px; }
 .input_width1{ width:130px; color:#000;}

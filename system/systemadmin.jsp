@@ -39,7 +39,7 @@
             <td class="tdcenter">20101-10-06 09:12:20 </td>
             <td class="tdcenter">启用</td>
             <td class="tdcenter">绑定</td>
-            <td class="tdcenter"><a href="systemAdminPassword.jsp">修改密码</a> / <a href="systemAdminPermission.jsp">设置权限</a> / <a href="#">删除</a> </td>
+            <td class="tdcenter"><a href="systemAdminPassword.jsp">修改密码</a> / <a href="systemAdminPermission.jsp">设置权限</a></td>
           </tr>
           <tr onmouseover="this.className='trover'" onmouseout="this.className='trout'">
             <td class="tdcenter2">2</td>
@@ -49,18 +49,91 @@
             <td class="tdcenter2">20101-10-06 09:12:20 </td>
             <td class="tdcenter2"><span class="tdcenter_red">停用</span></td>
             <td class="tdcenter2"><span class="tdcenter_red">解绑</span></td>
-            <td class="tdcenter2"><a href="systemAdminPassword.jsp">修改密码</a> / <a href="systemAdminPermission.jsp">设置权限</a> / <a href="#">删除</a> </td>
+            <td class="tdcenter2"><a href="systemAdminPassword.jsp">修改密码</a> / <a href="systemAdminPermission.jsp">设置权限</a> </td>
           </tr>
           <tr onmouseover="this.className='trover'" onmouseout="this.className='trout'">
-            <td class="tdcenter">1</td>
+            <td class="tdcenter">3</td>
             <td class="tdcenter"><a href="systemAdminLog.jsp">豆豆</a></td>
             <td class="tdcenter">股东</td>
             <td class="tdcenter">192.168.1.1</td>
             <td class="tdcenter">20101-10-06 09:12:20 </td>
             <td class="tdcenter">启用</td>
             <td class="tdcenter">绑定</td>
-            <td class="tdcenter"><a href="systemAdminPassword.jsp">修改密码</a> / <a href="systemAdminPermission.jsp">设置权限</a> / <a href="#">删除</a> </td>
+            <td class="tdcenter"><a href="systemAdminPassword.jsp">修改密码</a> / <a href="systemAdminPermission.jsp">设置权限</a> </td>
           </tr>
+          <tr onmouseover="this.className='trover'" onmouseout="this.className='trout'">
+            <td class="tdcenter2">4</td>
+            <td class="tdcenter2"><a href="systemAdminLog.jsp">王丽</a></td>
+            <td class="tdcenter2">客服</td>
+            <td class="tdcenter2">192.168.1.1</td>
+            <td class="tdcenter2">20101-10-06 09:12:20 </td>
+            <td class="tdcenter2">启用</td>
+            <td class="tdcenter2"><span class="tdcenter_red">解绑</span></td>
+            <td class="tdcenter2"><a href="systemAdminPassword.jsp">修改密码</a> / <a href="systemAdminPermission.jsp">设置权限</a> </td>
+          </tr>
+          <tr onmouseover="this.className='trover'" onmouseout="this.className='trout'">
+            <td class="tdcenter">5</td>
+            <td class="tdcenter"><a href="systemAdminLog.jsp">豆豆</a></td>
+            <td class="tdcenter">股东</td>
+            <td class="tdcenter">192.168.1.1</td>
+            <td class="tdcenter">20101-10-06 09:12:20 </td>
+            <td class="tdcenter">启用</td>
+            <td class="tdcenter">绑定</td>
+            <td class="tdcenter"><a href="systemAdminPassword.jsp">修改密码</a> / <a href="systemAdminPermission.jsp">设置权限</a> </td>
+          </tr>
+          <tr onmouseover="this.className='trover'" onmouseout="this.className='trout'">
+            <td class="tdcenter2">6</td>
+            <td class="tdcenter2"><a href="systemAdminLog.jsp">王丽</a></td>
+            <td class="tdcenter2">客服</td>
+            <td class="tdcenter2">192.168.1.1</td>
+            <td class="tdcenter2">20101-10-06 09:12:20 </td>
+            <td class="tdcenter2">启用</td>
+            <td class="tdcenter2">绑定</td>
+            <td class="tdcenter2"><a href="systemAdminPassword.jsp">修改密码</a> / <a href="systemAdminPermission.jsp">设置权限</a> </td>
+          </tr>
+          <tr onmouseover="this.className='trover'" onmouseout="this.className='trout'">
+            <td class="tdcenter">7</td>
+            <td class="tdcenter"><a href="systemAdminLog.jsp">豆豆</a></td>
+            <td class="tdcenter">股东</td>
+            <td class="tdcenter">192.168.1.1</td>
+            <td class="tdcenter">20101-10-06 09:12:20 </td>
+            <td class="tdcenter"><span class="tdcenter_red">停用</span></td>
+            <td class="tdcenter">绑定</td>
+            <td class="tdcenter"><a href="systemAdminPassword.jsp">修改密码</a> / <a href="systemAdminPermission.jsp">设置权限</a> </td>
+          </tr>
+          <tr onmouseover="this.className='trover'" onmouseout="this.className='trout'">
+            <td class="tdcenter2">8</td>
+            <td class="tdcenter2"><a href="systemAdminLog.jsp">王丽</a></td>
+            <td class="tdcenter2">客服</td>
+            <td class="tdcenter2">192.168.1.1</td>
+            <td class="tdcenter2">20101-10-06 09:12:20 </td>
+            <td class="tdcenter2">启用</td>
+            <td class="tdcenter2"><span class="tdcenter_red">解绑</span></td>
+            <td class="tdcenter2"><a href="systemAdminPassword.jsp">修改密码</a> / <a href="systemAdminPermission.jsp">设置权限</a> </td>
+          </tr>
+          <tr onmouseover="this.className='trover'" onmouseout="this.className='trout'">
+            <td class="tdcenter">9</td>
+            <td class="tdcenter"><a href="systemAdminLog.jsp">豆豆</a></td>
+            <td class="tdcenter">股东</td>
+            <td class="tdcenter">192.168.1.1</td>
+            <td class="tdcenter">20101-10-06 09:12:20 </td>
+            <td class="tdcenter">启用</td>
+            <td class="tdcenter">绑定</td>
+            <td class="tdcenter"><a href="systemAdminPassword.jsp">修改密码</a> / <a href="systemAdminPermission.jsp">设置权限</a> </td>
+          </tr>
+          <tr onmouseover="this.className='trover'" onmouseout="this.className='trout'">
+            <td class="tdcenter2">10</td>
+            <td class="tdcenter2"><a href="systemAdminLog.jsp">王丽</a></td>
+            <td class="tdcenter2">客服</td>
+            <td class="tdcenter2">192.168.1.1</td>
+            <td class="tdcenter2">20101-10-06 09:12:20 </td>
+            <td class="tdcenter2"><span class="tdcenter_red">停用</span></td>
+            <td class="tdcenter2"><span class="tdcenter_red">解绑</span></td>
+            <td class="tdcenter2"><a href="systemAdminPassword.jsp">修改密码</a> / <a href="systemAdminPermission.jsp">设置权限</a> </td>
+          </tr>
+          <tr>
+			<td colspan="8" class="tdright_new">共10页 当前页1页 <a href="#">首页</a> <a href="#">上一页</a> <a href="#">下一页</a> <a href="#">末页</a> </td>
+	  	  </tr>
         </table>
 </body>
 </html>
