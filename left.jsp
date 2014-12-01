@@ -12,8 +12,9 @@
 		<table class="alpha">
 		  <tr>
 			<td valign="top" class="menu" id="menubar">
-			<li><a href="notice.jsp" target='frmright'>首页公告</a></li>
-			<li><a href="manage.jsp" target='frmright'>后台管理</a></li>
+            <li><a href="system/systemLog.jsp" target='frmright'>后台首页</a></li>
+			<!--<li><a href="notice.jsp" target='frmright'>首页公告</a></li>
+			<li><a href="manage.jsp" target='frmright'>后台管理</a></li>-->
 			</td>
 		  </tr>
 		</table>	</td>

@@ -62,7 +62,7 @@
                   <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" 
                   src="images/menu01_right.gif"></DIV>
               </LI>
-              <!--*****************-->  
+              <!--*****************  
               <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);><a href="#"><span>现场注单</span></a>
                   <DIV class=menu_childs onmouseout=Menus.Hide(0);>
                   <UL>
@@ -73,15 +73,19 @@
                         </UL></DIV>
                   <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" 
                   src="images/menu01_right.gif"></DIV>
-              </LI>
+              </LI>-->
               <!--*****************-->  
               <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);><a href="#"><span>报表管理</span></a>
                   <DIV class=menu_childs onmouseout=Menus.Hide(0);>
                   <UL>
-                    <LI><A href="reports/reportsBairen.jsp" target=frmright>百人游戏</A></LI>
-                    <LI><A href="reports/reportsSports.jsp" target=frmright>竞技游戏</A></LI>
-                    <LI><A href="reports/reportsLottery.jsp" target=frmright>彩票游戏</A></LI>
-                    <LI><A href="reports/reportsVideo.jsp" target=frmright>电子游艺</A></LI>
+                    <LI><A href="reports/reportsBairen.jsp" target=frmright>输赢报表</A></LI>
+                    <LI><A href="reports/reportsSports.jsp" target=frmright>分类报表</A></LI>
+                    <LI><A href="reports/reportsLottery.jsp" target=frmright>客户交易</A></LI>
+                    <LI><A href="reports/reportsVideo.jsp" target=frmright>点数记录</A></LI>
+                    <LI><A href="reports/reportsBairen.jsp" target=frmright>登入记录</A></LI>
+                    <LI><A href="reports/reportsSports.jsp" target=frmright>现场投注</A></LI>
+                    <LI><A href="reports/reportsLottery.jsp" target=frmright>帐户记录</A></LI>
+                    <LI><A href="reports/reportsVideo.jsp" target=frmright>游戏结果</A></LI>
                         </UL></DIV>
                   <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" 
                   src="images/menu01_right.gif"></DIV>
@@ -105,7 +109,7 @@
                 </DIV>
                 <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" src="images/menu01_right.gif"></DIV>
               </LI>
-              <LI id=menu_9 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);><A href="#"><span>系统退出</span></A>
+              <!--<LI id=menu_9 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);><A href="#"><span>系统退出</span></A>
                 <DIV class=menu_childs onmouseout=Menus.Hide(0);>
                     <UL>
                         <LI><A href="out.jsp" target=frmright>安全退出</A></LI>
