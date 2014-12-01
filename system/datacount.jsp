@@ -7,12 +7,26 @@
 <link href="../css/main.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <div class="title">数据统计<span>每页<select>
-      <option value="five" selected="selected">5</option>
-      <option value="ten">10</option>
-      <option value="thirty">30</option>
-    </select>
-    天</span></Div>
+    <div class="title"> 数据统计 <span>  
+	  <form id="form1" name="form1" method="post" action="/adm/baob/bbtj.do?action=search">
+	  <input name="checkTime1" id="checkTime1" type="button" class="input" value="今日" onclick="searchtime('today')">
+	  <input name="checkTime2" id="checkTime2" type="button" class="input" value="昨日" onclick="searchtime('yestoday')">
+	  <input name="checkTime3" id="checkTime3" type="button" class="input" value="本周" onclick="searchtime('cweek')">
+	  <input name="checkTime4" id="checkTime4" type="button" class="input" value="上周" onclick="searchtime('bweek')">
+	  <input name="checkTime5" id="checkTime5" type="button" class="input" value="本月" onclick="searchtime('cmonth')">
+	  <input name="checkTime6" id="checkTime6" type="button" class="input" value="上月" onclick="searchtime('bmonth')">
+	  
+	   <input name="termOne" type="text" size="8" id="termOne" value="" onfocus="this.select()">
+	   <input name="proxyID" type="hidden" size="8" id="proxyID" value="1">类型
+        <select name="selectOne" size="1" class="Select" id="selectOne">
+			<option value="accounts">按用户名</option>
+        </select>
+		<input name="startTime" id="startTime" onclick="WdatePicker()" type="text" value="2014-11-29" size="8">至
+		<input name="endTime" id="endTime" type="text" onclick="WdatePicker()" value="2014-11-30" size="8">
+		<input name="Submit2" type="button" class="input" value="搜索" onclick="search()">
+      </form>
+	</span>
+    </Div>
     <table width="100%" border="0" cellpadding="0" cellspacing="0" class="table_margin">
       <tr>
         <td height="28" class="menutop">日期</td>
@@ -109,12 +123,27 @@
 		<td colspan="11" class="tdright_new">共10页 当前页1页 <a href="#">首页</a> <a href="#">上一页</a> <a href="#">下一页</a> <a href="#">末页</a> </td>
 	  </tr>
     </table>
-	<div class="title">游戏输赢<span>每页<select>
-      <option value="five" selected="selected">5</option>
-      <option value="ten">10</option>
-      <option value="thirty">30</option>
-    </select>
-    天</span></Div>
+	<div class="title">游戏输赢
+    <span>  
+	  <form id="form1" name="form1" method="post" action="/adm/baob/bbtj.do?action=search">
+	  <input name="checkTime1" id="checkTime1" type="button" class="input" value="今日" onclick="searchtime('today')">
+	  <input name="checkTime2" id="checkTime2" type="button" class="input" value="昨日" onclick="searchtime('yestoday')">
+	  <input name="checkTime3" id="checkTime3" type="button" class="input" value="本周" onclick="searchtime('cweek')">
+	  <input name="checkTime4" id="checkTime4" type="button" class="input" value="上周" onclick="searchtime('bweek')">
+	  <input name="checkTime5" id="checkTime5" type="button" class="input" value="本月" onclick="searchtime('cmonth')">
+	  <input name="checkTime6" id="checkTime6" type="button" class="input" value="上月" onclick="searchtime('bmonth')">
+	  
+	   <input name="termOne" type="text" size="8" id="termOne" value="" onfocus="this.select()">
+	   <input name="proxyID" type="hidden" size="8" id="proxyID" value="1">类型
+        <select name="selectOne" size="1" class="Select" id="selectOne">
+			<option value="accounts">按用户名</option>
+        </select>
+		<input name="startTime" id="startTime" onclick="WdatePicker()" type="text" value="2014-11-29" size="8">至
+		<input name="endTime" id="endTime" type="text" onclick="WdatePicker()" value="2014-11-30" size="8">
+		<input name="Submit2" type="button" class="input" value="搜索" onclick="search()">
+      </form>
+	</span>
+    </Div>
     <table width="100%" border="0" cellpadding="0" cellspacing="0" class="table_margin">
       <tr>
         <td height="28" class="menutop">日期</td>

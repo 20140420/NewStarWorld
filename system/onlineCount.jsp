@@ -7,41 +7,121 @@
 <link href="../css/main.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-	<Div class="title">在线统计</Div>
+    <div class="title"> 在线统计 <span>  
+	  <form id="form1" name="form1" method="post" action="/adm/baob/bbtj.do?action=search">
+	  <input name="checkTime1" id="checkTime1" type="button" class="input" value="今日" onclick="searchtime('today')">
+	  <input name="checkTime2" id="checkTime2" type="button" class="input" value="昨日" onclick="searchtime('yestoday')">
+	  <input name="checkTime3" id="checkTime3" type="button" class="input" value="本周" onclick="searchtime('cweek')">
+	  <input name="checkTime4" id="checkTime4" type="button" class="input" value="上周" onclick="searchtime('bweek')">
+	  <input name="checkTime5" id="checkTime5" type="button" class="input" value="本月" onclick="searchtime('cmonth')">
+	  <input name="checkTime6" id="checkTime6" type="button" class="input" value="上月" onclick="searchtime('bmonth')">
+	  
+	   <input name="termOne" type="text" size="8" id="termOne" value="" onfocus="this.select()">
+	   <input name="proxyID" type="hidden" size="8" id="proxyID" value="1">类型
+        <select name="selectOne" size="1" class="Select" id="selectOne">
+			<option value="accounts">按用户名</option>
+        </select>
+		<input name="startTime" id="startTime" onclick="WdatePicker()" type="text" value="2014-11-29" size="8">至
+		<input name="endTime" id="endTime" type="text" onclick="WdatePicker()" value="2014-11-30" size="8">
+		<input name="Submit2" type="button" class="input" value="搜索" onclick="search()">
+      </form>
+	</span>
+    </Div>
     <table width="100%" border="0" cellpadding="0" cellspacing="0" class="table_margin">
       <tr>
-        <td height="28" class="menutop">名称</td>
-        <td class="menutop">系统银子</td>
-        <td class="menutop">充值</td>
-        <td class="menutop">赠送</td>
-        <td class="menutop">扣税</td>
-        <td class="menutop">机器人输赢</td>
+        <td height="28" class="menutop">日期</td>
+        <td class="menutop">网银充值（元）</td>
+        <td class="menutop">点卡充值（元）</td>
+        <td class="menutop">注册赠送</td>
+        <td class="menutop">公司输赢</td>
+        <td class="menutop">佣金</td>
+        <td class="menutop">税收</td>
+        <td class="menutop">新增代理</td>
+        <td class="menutop">新增会员</td>
+        <td class="menutop">总游戏币</td>
+        <td class="menutop">差额</td>
       </tr>
       <tr>
-        <td class="tdcenter">公司</td>
-        <td class="tdcenter"><a href="usermoneyView.html">0</a></td>
-        <td class="tdcenter"><a href="userpay.html">1000</a></td>
-        <td class="tdcenter"><a href="userpay.html">100</a></td>
-        <td class="tdcenter"><a href="taxmoneyView.html">400</a></td>
-        <td class="tdcenter"><a href="robotmoneyView.html">2000</a></td>
+        <td class="tdcenter">今日</td>
+        <td class="tdcenter">1000</td>
+        <td class="tdcenter">5000</td>
+        <td class="tdcenter">-1000</td>
+        <td class="tdcenter">234324</td>
+        <td class="tdcenter">444</td>
+        <td class="tdcenter">44</td>
+        <td class="tdcenter">0</td>
+        <td class="tdcenter">3</td>
+        <td class="tdcenter">200000</td>
+        <td class="tdcenter">20000</td>
       </tr>
       <tr>
-        <td class="tdcenter2">公司</td>
-        <td class="tdcenter2"><a href="usermoneyView.html">0</a></td>
-        <td class="tdcenter2"><a href="userpay.html">1000</a></td>
-        <td class="tdcenter2"><a href="userpay.html">100</a></td>
-        <td class="tdcenter2"><a href="taxmoneyView.html">400</a></td>
-        <td class="tdcenter2"><a href="robotmoneyView.html">2000</a></td>
+        <td class="tdcenter2">昨日</td>
+        <td class="tdcenter2">50000</td>
+        <td class="tdcenter2">50000</td>
+        <td class="tdcenter2">-1000</td>
+        <td class="tdcenter2">-3555</td>
+        <td class="tdcenter2">888</td>
+        <td class="tdcenter2">333</td>
+        <td class="tdcenter2"></td>
+        <td class="tdcenter2"></td>
+        <td class="tdcenter2"></td>
+        <td class="tdcenter2"><span class="red">-52000</span></td>
       </tr>
       <tr>
-        <td class="tdcenter">公司</td>
-        <td class="tdcenter"><a href="usermoneyView.html">0</a></td>
-        <td class="tdcenter"><a href="userpay.html">1000</a></td>
-        <td class="tdcenter"><a href="userpay.html">100</a></td>
-        <td class="tdcenter"><a href="taxmoneyView.html">400</a></td>
-        <td class="tdcenter"><a href="robotmoneyView.html">2000</a></td>
+        <td class="tdcenter">2014-11-25</td>
+        <td class="tdcenter">0</td>
+        <td class="tdcenter"></td>
+        <td class="tdcenter"></td>
+        <td class="tdcenter">0</td>
+        <td class="tdcenter">0</td>
+        <td class="tdcenter"></td>
+        <td class="tdcenter"></td>
+        <td class="tdcenter"></td>
+        <td class="tdcenter"></td>
+        <td class="tdcenter"></td>
       </tr>
+      <tr>
+        <td class="tdcenter2">2014-11-24</td>
+        <td class="tdcenter2">0</td>
+        <td class="tdcenter2"></td>
+        <td class="tdcenter2"></td>
+        <td class="tdcenter2">0</td>
+        <td class="tdcenter2">0</td>
+        <td class="tdcenter2"></td>
+        <td class="tdcenter2"></td>
+        <td class="tdcenter2"></td>
+        <td class="tdcenter2"></td>
+        <td class="tdcenter2"></td>
+      </tr>
+      <tr>
+        <td class="tdcenter">2014-11-23</td>
+        <td class="tdcenter"></td>
+        <td class="tdcenter"></td>
+        <td class="tdcenter"></td>
+        <td class="tdcenter">0</td>
+        <td class="tdcenter">0</td>
+        <td class="tdcenter"></td>
+        <td class="tdcenter"></td>
+        <td class="tdcenter"></td>
+        <td class="tdcenter"></td>
+        <td class="tdcenter"></td>
+      </tr>
+      <tr style="font-weight:bold;">
+        <td class="tdcenter">总计</td>
+        <td class="tdcenter"></td>
+        <td class="tdcenter"></td>
+        <td class="tdcenter"></td>
+        <td class="tdcenter">0</td>
+        <td class="tdcenter">0</td>
+        <td class="tdcenter"></td>
+        <td class="tdcenter"></td>
+        <td class="tdcenter"></td>
+        <td class="tdcenter"></td>
+        <td class="tdcenter"></td>
+      </tr>
+      <tr>
+		<td colspan="11" class="tdright_new">共10页 当前页1页 <a href="#">首页</a> <a href="#">上一页</a> <a href="#">下一页</a> <a href="#">末页</a> </td>
+	  </tr>
     </table>
-    <h1>&nbsp;</h1>
 </body>
 </html>
