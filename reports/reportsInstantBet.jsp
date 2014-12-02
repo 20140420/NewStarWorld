@@ -34,7 +34,7 @@
         <td class="tdcenter">01</td>
         <td class="tdcenter">百家</td>
         <td class="tdcenter">20101-10-06 09:12:20</td>
-        <td class="tdcenter">派彩中</td>
+        <td class="tdcenter"><span class="red">派彩中</span></td>
         <td class="tdcenter">2898281</td>
         <td class="tdcenter">14-38</td>
         <td class="tdcenter">5</td>
@@ -47,7 +47,7 @@
         <td class="tdcenter2">02</td>
         <td class="tdcenter2">百家</td>
         <td class="tdcenter2"> 20101-10-06 09:12:20 </td>
-        <td class="tdcenter2">准备中</td>
+        <td class="tdcenter2"><span class="ready">准备中</span></td>
         <td class="tdcenter2">2898281</td>
         <td class="tdcenter2">1-1</td>
         <td class="tdcenter2">0</td>
@@ -60,7 +60,7 @@
         <td class="tdcenter">03</td>
         <td class="tdcenter">百家</td>
         <td class="tdcenter">20101-10-06 09:12:20</td>
-        <td class="tdcenter">投注中</td>
+        <td class="tdcenter"><span class="betting">投注中</span></td>
         <td class="tdcenter">2898281</td>
         <td class="tdcenter">14-59</td>
         <td class="tdcenter">6</td>
@@ -71,16 +71,16 @@
       </tr>
       <tr>
         <td class="tdcenter2">04</td>
-        <td class="tdcenter2">&nbsp;</td>
-        <td class="tdcenter2">&nbsp;</td>
-        <td class="tdcenter2">&nbsp;</td>
-        <td class="tdcenter2">&nbsp;</td>
-        <td class="tdcenter2">&nbsp;</td>
-        <td class="tdcenter2">&nbsp;</td>
-        <td class="tdcenter2"></td>
-        <td class="tdcenter2"></td>
-        <td class="tdcenter2"></td>
-        <td class="tdcenter2"></td>
+        <td class="tdcenter2">百家</td>
+        <td class="tdcenter2"> 20101-10-06 09:12:20 </td>
+        <td class="tdcenter2"><span class="ready">准备中</span></td>
+        <td class="tdcenter2">2898281</td>
+        <td class="tdcenter2">1-1</td>
+        <td class="tdcenter2">0</td>
+        <td class="tdcenter2">0.00</td>
+        <td class="tdcenter2">0.00</td>
+        <td class="tdcenter2">0.00</td>
+        <td class="tdcenter2">0.00</td>
       </tr>
       <tr>
         <td class="tdcenter">05</td>
