@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="systemadmin.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130615411856538271" remote="130615411850000000" Dst="0" />
-<file name="datacount.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130614625150246978" remote="130614625150000000" Dst="0" />
-<file name="systemParameter.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130618924607754855" remote="130618924600000000" Dst="0" />
-<file name="mobileMenu.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130618924467886855" remote="130618924460000000" Dst="0" />
-<file name="communicationSettings.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130618924419944113" remote="130618924410000000" Dst="0" />
-<file name="dataManage.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130618924453786048" remote="130618924450000000" Dst="0" />
-<file name="bubblePointSettings.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130618924406173325" remote="130618924400000000" Dst="0" />
-<file name="onlineCount.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130618924482007662" remote="130618924480000000" Dst="0" />
-<file name="dataCount.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130618924436365052" remote="130618924430000000" Dst="0" />
-<file name="systemAdmin.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130618924504388943" remote="130618924500000000" Dst="0" />
-<file name="systemAdminLog.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130615493031952596" remote="130615493030000000" Dst="0" />
-<file name="systemAdminPassword.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130615507529571813" remote="130615507520000000" Dst="0" />
-<file name="systemAdminPermission.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130616429881970033" remote="130616429880000000" Dst="0" />
-<file name="systemAdminAdd.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130615509947480109" remote="130615509940000000" Dst="0" />
-<file name="systemParameterSet.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130618782894819338" remote="130618782890000000" Dst="0" />
-<file name="bubblePointAdd.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130618846435523659" remote="130618846430000000" Dst="0" />
+<file name="systemParameter.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130619867607096353" remote="130619867600000000" Dst="0" />
+<file name="mobileMenu.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130619867607066351" remote="130619867600000000" Dst="0" />
+<file name="communicationSettings.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130619867607056351" remote="130619867600000000" Dst="0" />
+<file name="dataManage.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130619867607066351" remote="130619867600000000" Dst="0" />
+<file name="bubblePointSettings.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130619867607056351" remote="130619867600000000" Dst="0" />
+<file name="onlineCount.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130619867607076352" remote="130619867600000000" Dst="0" />
+<file name="dataCount.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130619867607066351" remote="130619867600000000" Dst="0" />
+<file name="systemAdmin.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130619875914271496" remote="130619875910000000" Dst="0" />
+<file name="systemAdminLog.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130619867607076352" remote="130619867600000000" Dst="0" />
+<file name="systemAdminPassword.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130619867607086352" remote="130619867600000000" Dst="0" />
+<file name="systemAdminPermission.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130619867607086352" remote="130619867600000000" Dst="0" />
+<file name="systemAdminAdd.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130619867607076352" remote="130619867600000000" Dst="0" />
+<file name="systemParameterSet.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130619867607096353" remote="130619867600000000" Dst="0" />
+<file name="bubblePointAdd.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130619867607046350" remote="130619867600000000" Dst="0" />
+<file name="datacount.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130619867607066351" remote="130619867600000000" Dst="0" />
+<file name="systemadmin.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130619875914271496" remote="130619875910000000" Dst="0" />
 </dwsync>

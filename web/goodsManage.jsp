@@ -12,7 +12,7 @@
 	  <input name="Submit" type="button" class="input" value="新增商品" onclick="window.location.href='/adm/shoping/gameshopList.do?action=preAddMallItems'"/>
 	  </label>
 	</span></Div>
-	<form id="form1" name="form1" method="post" onsubmit="return delCheck()" action="/adm/shoping/gameshopList.do?action=updateState">
+	<form id="form1" name="form1" method="post" onsubmit="" action="/adm/shoping/gameshopList.do?action=updateState">
 		<table width="100%" border="0" cellpadding="0" cellspacing="0" class="table_margin">
           <tr>
             <td class="menutop">选择</td>

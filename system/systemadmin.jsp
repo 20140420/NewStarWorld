@@ -8,7 +8,7 @@
 </head>
 <body>
 	<Div class="title">管理账户<span>  
-	  <form id="form1" name="form1" method="post" action="">
+	  <form id="form1" name="form1" method="post" action="systemAdmin.jsp">
 	    <label>
 	    <input name="textfield" type="text" class="input_width2" />
 	    <select name="select" class="input_width1">

@@ -29,7 +29,7 @@
 	</tr>
 	<tr>
 	  <td class="tdlefts" height="25"><input type="button" name="Submit" class="input" value="增加" onclick="window.location.href='/adm/web/adPreAdd.do'" />
-      <input type="submit" name="Submit2" class="input" value="删除" onClick="return delCheck()" /></td>
+      <input type="submit" name="Submit2" class="input" value="删除" onClick="" /></td>
 	  </tr>
 	</table>
 		<table width="100%" border="0" cellpadding="0" cellspacing="0" class="table_margin">
