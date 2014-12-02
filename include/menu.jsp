@@ -78,14 +78,14 @@
               <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);><a href="#"><span>报表管理</span></a>
                   <DIV class=menu_childs onmouseout=Menus.Hide(0);>
                   <UL>
-                    <LI><A href="reports/reportsBairen.jsp" target=frmright>输赢报表</A></LI>
-                    <LI><A href="reports/reportsSports.jsp" target=frmright>分类报表</A></LI>
-                    <LI><A href="reports/reportsLottery.jsp" target=frmright>客户交易</A></LI>
-                    <LI><A href="reports/reportsVideo.jsp" target=frmright>点数记录</A></LI>
-                    <LI><A href="reports/reportsBairen.jsp" target=frmright>登入记录</A></LI>
-                    <LI><A href="reports/reportsSports.jsp" target=frmright>现场投注</A></LI>
-                    <LI><A href="reports/reportsLottery.jsp" target=frmright>帐户记录</A></LI>
-                    <LI><A href="reports/reportsVideo.jsp" target=frmright>游戏结果</A></LI>
+                    <LI><A href="reports/reportsBunko.jsp" target=frmright>输赢报表</A></LI>
+                    <LI><A href="reports/reportsClassify.jsp" target=frmright>分类报表</A></LI>
+                    <LI><A href="reports/reportsTrade.jsp" target=frmright>客户交易</A></LI>
+                    <LI><A href="reports/reportsPointRecord.jsp" target=frmright>点数记录</A></LI>
+                    <LI><A href="reports/reportsLogRecord.jsp" target=frmright>登入记录</A></LI>
+                    <LI><A href="reports/reportsInstantBet.jsp" target=frmright>现场投注</A></LI>
+                    <LI><A href="reports/reportsAccountRecord.jsp" target=frmright>帐户记录</A></LI>
+                    <LI><A href="reports/reportsGameResults.jsp" target=frmright>游戏结果</A></LI>
                         </UL></DIV>
                   <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" 
                   src="images/menu01_right.gif"></DIV>

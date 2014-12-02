@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="reportsBairen.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130615460756886568" remote="130615460750000000" Dst="0" />
-<file name="reportsLottery.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130615463730176630" remote="130615463730000000" Dst="0" />
-<file name="reportsSports.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130615463817011597" remote="130615463810000000" Dst="0" />
-<file name="reportsVideo.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130615463928927998" remote="130615463920000000" Dst="0" />
+<file name="reportsBunko.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130619638099469267" remote="130619638090000000" Dst="0" />
+<file name="reportsClassify.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130619643626475394" remote="130619643620000000" Dst="0" />
+<file name="reportsTrade.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130619786886069374" remote="130619786880000000" Dst="0" />
+<file name="reportsPointRecord.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130619786381330505" remote="130619786380000000" Dst="0" />
+<file name="reportsLogRecord.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130619795370994684" remote="130619795370000000" Dst="0" />
+<file name="reportsAccountRecord.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130619803077935496" remote="130619803070000000" Dst="0" />
+<file name="reportsGameResults.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130619804557580127" remote="130619804550000000" Dst="0" />
+<file name="reportsInstantBet.jsp" server="D:/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/NewStarWorld/" local="130619760432626324" remote="130619760430000000" Dst="0" />
 </dwsync>

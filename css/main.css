@@ -352,3 +352,17 @@ td {
 .default_notice_type {
 	float: right;
 }
+
+/** 报表管理 **/
+.reports_search {
+	background-color: #D5D5D5;
+	padding: 5px;
+}
+.reports_user {
+	margin: 2px 0px;
+	padding: 5px;
+}
+.reports_user ul {
+	margin: 5px 0px 0px 0px;
+	padding: 0px;
+}
