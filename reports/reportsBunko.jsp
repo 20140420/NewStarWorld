@@ -12,13 +12,18 @@
     <ul><span>
 		日期<input name="startTime" id="startTime" onclick="WdatePicker()" type="text" value="2014-10-20" size="8">12:00:00
         至<input name="endTime" id="endTime" type="text" onclick="WdatePicker()" value="2014-10-31" size="8">11:59:59
-		类别
+      <input name="checkTime2" id="checkTime2" type="button" class="input" value="昨日" onclick="searchtime('yestoday')">
+	  <input name="checkTime3" id="checkTime3" type="button" class="input" value="本周" onclick="searchtime('cweek')">
+	  <input name="checkTime4" id="checkTime4" type="button" class="input" value="上周" onclick="searchtime('bweek')">
+	  <input name="checkTime5" id="checkTime5" type="button" class="input" value="本月" onclick="searchtime('cmonth')">
+	  <input name="checkTime6" id="checkTime6" type="button" class="input" value="上月" onclick="searchtime('bmonth')">
+	</span></ul>
+      <ul>类别
         <select name="selectOne" size="1" class="Select" id="selectOne">
           <option value="all" selected="selected">全部</option>
 		  <option value="accounts">赢钱用户</option>
           <option value="accounts">输钱用户</option>
-        </select><input name="Submit2" type="button" class="input" value="查询" onclick="search()">
-	</span></ul>
+        </select><input name="Submit2" type="button" class="input" value="查询" onclick="search()"></ul>
       <ul>更新时间：<span>2014/11/28 15:57:01</span></ul>
       <ul>报表日期：<span>2014/10/20 12:00:00 - 2014/10/31 11:59:59</span></ul>
     </Div>
@@ -154,9 +159,6 @@
         <td class="tdcenter"></td>
         <td class="tdcenter"></td>
       </tr>
-      <tr>
-		<td colspan="16" class="tdright_new">共10页 当前页1页 <a href="#">首页</a> <a href="#">上一页</a> <a href="#">下一页</a> <a href="#">末页</a> </td>
-	  </tr>
 </table>
 <Div class="title">直属会员输赢明细</Div>
     <table width="100%" border="0" cellpadding="0" cellspacing="0" class="table_margin">
@@ -251,9 +253,6 @@
         <td class="tdcenter"></td>
         <td class="tdcenter"></td>
       </tr>
-      <tr>
-		<td colspan="11" class="tdright_new">共10页 当前页1页 <a href="#">首页</a> <a href="#">上一页</a> <a href="#">下一页</a> <a href="#">末页</a> </td>
-	  </tr>
     </table>
 </body>
 </html>

@@ -108,9 +108,6 @@
         <td class="tdcenter"></td>
         <td class="tdcenter"></td>
       </tr>
-      <tr>
-		<td colspan="11" class="tdright_new">共10页 当前页1页 <a href="#">首页</a> <a href="#">上一页</a> <a href="#">下一页</a> <a href="#">末页</a> </td>
-	  </tr>
 </table>
 </body>
 </html>
