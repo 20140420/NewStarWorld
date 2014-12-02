@@ -22,7 +22,7 @@
                   <DIV class=menu_childs onmouseout=Menus.Hide(0);>
                   <UL>
                     <LI><A href="account/userManage.jsp" target=frmright>用户管理</A></LI>
-                    <LI><A href="account/members.jsp" target=frmright>直属会员</A></LI>
+                    <!--<LI><A href="account/members.jsp" target=frmright>直属会员</A></LI>-->
                     <LI><A href="account/spreadManage.jsp" target=frmright>推广管理</A></LI>
                     <LI><A href="account/integralManage.jsp" target=frmright>积分管理</A></LI>
                     <LI><A href="account/charmManage.jsp" target=frmright>魅力管理</A></LI>

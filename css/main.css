@@ -139,8 +139,13 @@ td {
 	text-align: center;
 	height: 25px;
 	line-height: 25px;
-	border: 1px solid #909090;
 	font-family: "微软雅黑";
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #909090;
+	border-left-color: #909090;
 }
 .menutop a:link,.menutop a:visited,.menutop a:hover{ color:#f60; text-decoration:none;}
 
@@ -164,8 +169,8 @@ td {
 	border-left-style: solid;
 	border-top-color: #fff;
 	border-right-color: #fff;
-	border-bottom-color: #d0d0d0;
-	border-left-color: #d0d0d0;
+	border-bottom-color: #909090;
+	border-left-color: #909090;
 	
 }
 .tdcenter2 {
@@ -176,19 +181,13 @@ td {
 	color: #000;
 	text-align: center;
 	font-family: "微软雅黑";
-	border-top-width: 1px;
-	border-right-width: 1px;
+	background-color: #d5d5d5;
 	border-bottom-width: 1px;
 	border-left-width: 1px;
-	border-top-style: solid;
-	border-right-style: solid;
 	border-bottom-style: solid;
 	border-left-style: solid;
-	border-top-color: #d0d0d0;
-	border-right-color: #d0d0d0;
-	border-bottom-color: #d0d0d0;
-	border-left-color: #d0d0d0;
-	background-color: #d5d5d5;
+	border-bottom-color: #909090;
+	border-left-color: #909090;
 }
 .tdcenter em,  .tdcenter2 em{
 	margin: 0px 3px;
