@@ -15,12 +15,12 @@ function switchSysBar(){
      if (1 == window.status){
 		  window.status = 0;
           switchPoint.innerHTML = '<img src="images/left.gif">';
-          document.all("frmTitle").style.display="none"
+          document.all("frmTitle").style.display="none";
      }
      else{
 		  window.status = 1;
           switchPoint.innerHTML = '<img src="images/right.gif">';
-          document.all("frmTitle").style.display=""
+          document.all("frmTitle").style.display="";
      }
 }
 </SCRIPT>
