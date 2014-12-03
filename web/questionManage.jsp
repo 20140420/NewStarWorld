@@ -34,7 +34,7 @@
           </tr>
 		<table width="100%" border="0" cellpadding="0" cellspacing="0" class="table_margin">
           <tr>
-            <td width="60" class="menutop"><label>
+            <td width="44" class="menutop"><label>
               <input type="checkbox" name="checkAll" value="checkAll" onClick="checkAllBox(0)" />
             </label></td>
             <td width="60" class="menutop">问题标识</td>
@@ -131,24 +131,14 @@
             <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=1'" class="tdcenter2">2013-10-25 17:34:13</td>
             <td onclick="window.location.href='/adm/web/issuePreUpdate.do?issueID=1'" class="tdcenter2">2013-10-25 17:38:06</td>
           </tr>
-		  
           <tr>
-		  <tr>
-                <td class="tdcenter" colspan="27" align="center" valign="middle" bgcolor="#FFFFFF">
-				<font color="red"></font></td>
-       </tr>
-            <td colspan="12" class="tdright_new">总记录:8条/1页 
-           
-　<a onClick="changepage(1)" style="cursor:hand">首页</a> 
-	<a onClick="changepage(0)" style="cursor:hand">上页</a> 
-	<select name="select" onChange="jumppage(this.value);">
-           <option value="1" 
-              selected="selected"
-            >第1页
-            </option>
-          
-        </select> &nbsp;<a onClick="changepage(2)" style="cursor:hand">下页</a> 
-        <a onClick="changepage(1)" style="cursor:hand">末页</a>		</td>
+            <td colspan="12" class="tdright_new">总记录:8条/1页  
+    　		<a onClick="changepage(1)" style="cursor:hand">首页</a> 
+            <a onClick="changepage(0)" style="cursor:hand">上页</a> 
+            <select name="select" onChange="jumppage(this.value);">
+               <option value="1" selected="selected">第1页</option>
+            </select> &nbsp;<a onClick="changepage(2)" style="cursor:hand">下页</a> 
+            <a onClick="changepage(1)" style="cursor:hand">末页</a></td>
           </tr>
         </table>
 	</form>

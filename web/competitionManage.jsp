@@ -8,7 +8,8 @@
 </head>
 <body>
 	<Div class="title">比赛管理</Div>
-    <table width="100%" border="0" cellpadding="0" cellspacing="0" class="table_margin">
+    比赛筹备中。。。。。。
+    <!--<table width="100%" border="0" cellpadding="0" cellspacing="0" class="table_margin">
       <tr>
         <td height="28" class="menutop">名称</td>
         <td class="menutop">系统银子</td>
@@ -41,7 +42,6 @@
         <td class="tdcenter"><a href="taxmoneyView.html">400</a></td>
         <td class="tdcenter"><a href="robotmoneyView.html">2000</a></td>
       </tr>
-    </table>
-    <h1>&nbsp;</h1>
+    </table>-->
 </body>
 </html>

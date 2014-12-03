@@ -35,7 +35,7 @@
          </tr>
 		<table width="100%" border="0" cellpadding="0" cellspacing="0" class="table_margin">
           <tr>
-            <td width="60" class="menutop"><label>
+            <td width="44" class="menutop"><label>
               <input type="checkbox" name="checkAll" value="checkAll" onClick="checkAllBox(0)" />
             </label></td>
             <td width="60" class="menutop">序号</td>
@@ -188,10 +188,6 @@
           </tr>
 		  
           <tr>
-		  <tr>
-                <td class="tdcenter" colspan="28" align="center" valign="middle" bgcolor="#FFFFFF">
-				<font color="red"></font></td>
-       </tr>
             <td colspan="13" class="tdright_new">总记录:8条/1页 
            
 　<a onClick="changepage(1)" style="cursor:hand">首页</a> 

@@ -131,9 +131,6 @@
             <td class="tdcenter2"><span class="tdcenter_red">解绑</span></td>
             <td class="tdcenter2"><a href="systemAdminPassword.jsp">修改密码</a> / <a href="systemAdminPermission.jsp">设置权限</a> </td>
           </tr>
-          <tr>
-			<td colspan="8" class="tdright_new">共10页 当前页1页 <a href="#">首页</a> <a href="#">上一页</a> <a href="#">下一页</a> <a href="#">末页</a> </td>
-	  	  </tr>
         </table>
 </body>
 </html>

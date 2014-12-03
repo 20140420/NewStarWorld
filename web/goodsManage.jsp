@@ -15,7 +15,7 @@
 	<form id="form1" name="form1" method="post" onsubmit="" action="/adm/shoping/gameshopList.do?action=updateState">
 		<table width="100%" border="0" cellpadding="0" cellspacing="0" class="table_margin">
           <tr>
-            <td class="menutop">选择</td>
+            <td width="44" class="menutop"></td>
             <td width="60" class="menutop">序号</td>
 			<td class="menutop">类型</td>
             <td class="menutop">商品名称</td>

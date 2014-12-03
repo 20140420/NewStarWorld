@@ -12,7 +12,7 @@
                     <LI><A href="system/communicationSettings.jsp" target=frmright>通讯设置</A></LI>
                     <LI><A href="system/dataManage.jsp" target=frmright>数据管理</A></LI>
                     <LI><A href="system/bubblePointSettings.jsp" target=frmright>泡点设置</A></LI>
-                    <LI><A href="system/onlineCount.jsp" target=frmright>在线统计</A></LI>
+                    <!--<LI><A href="system/onlineCount.jsp" target=frmright>在线统计</A></LI>-->
                     </UL></DIV>
                   <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" 
                   src="images/menu01_right.gif"></DIV>
@@ -27,10 +27,11 @@
                     <LI><A href="account/integralManage.jsp" target=frmright>积分管理</A></LI>
                     <LI><A href="account/charmManage.jsp" target=frmright>魅力管理</A></LI>
                     <LI><A href="account/medalManage.jsp" target=frmright>奖牌管理</A></LI>
-                    <LI><A href="account/robotManage.jsp" target=frmright>机器人管理</A></LI>
-                    <LI><A href="account/limitIP.jsp" target=frmright>限制IP地址</A></LI>
+                    <LI><A href="account/limitManage.jsp" target=frmright>限制管理</A></LI>
+                    <!--<LI><A href="account/limitIP.jsp" target=frmright>限制IP地址</A></LI>
                     <LI><A href="account/limitUser.jsp" target=frmright>限制用户名</A></LI>
-                    <LI><A href="account/limitRobot.jsp" target=frmright>限制机器码</A></LI>
+                    <LI><A href="account/limitRobot.jsp" target=frmright>限制机器码</A></LI>-->
+                    <LI><A href="account/robotManage.jsp" target=frmright>机器人管理</A></LI>
                     </UL></DIV>
                   <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" 
                   src="images/menu01_right.gif"></DIV>
@@ -39,12 +40,12 @@
               <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);><a href="#"><span>财务中心</span></a>
                   <DIV class=menu_childs onmouseout=Menus.Hide(0);>
                   <UL>
-                    <LI><A href="finance/giro.jsp" target=frmright>转账</A></LI>
+                    <!--<LI><A href="finance/giro.jsp" target=frmright>转账</A></LI>-->
                     <LI><A href="finance/rechargeRecords.jsp" target=frmright>充值记录</A></LI>
+                     <LI><A href="finance/bankRecords.jsp" target=frmright>钱庄记录</A></LI>
                     <LI><A href="finance/cashManage.jsp" target=frmright>提款管理</A></LI>
                     <LI><A href="finance/cardManage.jsp" target=frmright>点卡管理</A></LI>
                     <LI><A href="finance/orderManage.jsp" target=frmright>订单管理</A></LI>
-                    <LI><A href="finance/bankRecords.jsp" target=frmright>钱庄记录</A></LI>
                     <LI><A href="finance/paymentInterface.jsp" target=frmright>支付接口</A></LI>
                     </UL></DIV>
                   <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" 
@@ -102,6 +103,7 @@
                     <LI><A href="web/newsManage.jsp" target=frmright>新闻管理</A></LI>
                     <LI><A href="web/goodsManage.jsp" target=frmright>商品管理</A></LI>
                     <LI><A href="web/gameRule.jsp" target=frmright>游戏规则</A></LI>
+                    <LI><A href="web/gameList.jsp" target=frmright>游戏列表</A></LI>
                     <LI><A href="web/advertManage.jsp" target=frmright>广告管理</A></LI>
                     <LI><A href="web/modelManage.jsp" target=frmright>模板管理</A></LI>
                     <LI><A href="web/competitionManage.jsp" target=frmright>比赛管理</A></LI>

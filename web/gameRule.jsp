@@ -35,7 +35,7 @@
           </tr>
 		<table width="100%" border="0" cellpadding="0" cellspacing="0" class="table_margin">
           <tr>
-            <td width="60" class="menutop"><label>
+            <td width="44" class="menutop"><label>
               <input type="checkbox" name="checkAll" value="checkAll" onClick="checkAllBox(0)" />
             </label></td>
             <td width="60" class="menutop">游戏标识</td>

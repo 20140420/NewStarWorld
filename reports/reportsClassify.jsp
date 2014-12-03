@@ -20,14 +20,15 @@
     <ul>
 		类别
         <select name="selectOne" size="1" class="Select" id="selectOne">
-          <option value="gameClass1" selected="selected">百人游戏</option>
+          <option value="gameClass0" selected="selected">全部类型</option>
+          <option value="gameClass1">百人游戏</option>
           <option value="gameClass2">竞技游戏</option>
           <option value="gameClass3">彩票游戏</option>
           <option value="gameClass4">电子游艺</option>
         </select>
         游戏
         <select name="selectOne" size="1" class="Select" id="selectOne">
-          <option value="gameName1" selected="selected">全部</option>
+          <option value="gameName1" selected="selected">全部游戏</option>
           <option value="gameName2">百家乐</option>
           <option value="gameName3">百人两张</option>
           <option value="gameName4">百人牛牛</option>

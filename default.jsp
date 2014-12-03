@@ -7,9 +7,17 @@
 <link href="css/main.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-
-<Div class="title">帐号新增及密码更改提示</Div>
-<table width="100%" border="0" cellpadding="0" cellspacing="0" class="table_margin">
+<div class="default">
+	<table width="100%" border="0" cellpadding="0" cellspacing="0" class="table_margin">
+    	<tr>
+        	<td class="menutop">重大资讯</td>
+        </tr>
+        <tr>
+        	<td class="tdcenter2"><marquee scrollamount="3"> 目前RSA验证机制处于推广阶段，尚未安装的用户请尽快安装</marquee></td>
+        </tr>
+    </table>
+	<Div class="title">帐号新增及密码更改提示</Div>
+	<table width="100%" border="0" cellpadding="0" cellspacing="0" class="table_margin">
           <tr>
             <td width="150" class="menutop">时间</td>
             <td class="menutop">操作者</td>
@@ -74,11 +82,8 @@
             <td class="tdcenter2">3123</td>
             <td class="tdcenter2">总代理</td>
           </tr>
-          <tr>
-            <td colspan="6" class="tdright_new">共10页 当前页1页 <a href="#">首页</a> <a href="#">上一页</a> <a href="#">下一页</a> <a href="#">末页</a> </td>
-          </tr>
-</table>
-<Div class="title">最近登入记录</Div>
+	</table>
+	<Div class="title">最近登入记录</Div>
 		<table width="100%" border="0" cellpadding="0" cellspacing="0" class="table_margin">
           <tr>
             <td width="150" class="menutop">时间</td>
@@ -96,9 +101,7 @@
             <td class="tdcenter2">192.168.1.5</td>
             <td class="tdcenter2">2011-05-06 12:44:30 </td>
           </tr>
-          <tr>
-            <td colspan="4" class="tdright_new">共10页 当前页1页 <a href="#">首页</a> <a href="#">上一页</a> <a href="#">下一页</a> <a href="#">末页</a> </td>
-          </tr>
         </table>
+</div>
 </body>
 </html>

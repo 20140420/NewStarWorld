@@ -34,7 +34,7 @@
 	</table>
 		<table width="100%" border="0" cellpadding="0" cellspacing="0" class="table_margin">
           <tr>
-		    <td class="menutop">&nbsp;</td>
+		    <td width="44" class="menutop">&nbsp;</td>
             <td width="60" class="menutop">序号</td>
             <td class="menutop">广告标题</td>
             <td class="menutop">广告简介</td>

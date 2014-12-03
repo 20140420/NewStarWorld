@@ -7,39 +7,45 @@
 <link href="../css/main.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-	<Div class="title">支付接口</Div>
+	<Div class="title">支付接口<span>  
+	    <input name="Submit" type="button" class="input" value="新增" onclick="window.location.href='#'" />
+	</span></Div>
     <table width="100%" border="0" cellpadding="0" cellspacing="0" class="table_margin">
       <tr>
+        <td width="44" class="menutop"><input type="checkbox" name="checkAll" value="checkAll" onclick="checkAllBox(0)" /></td>
         <td height="28" class="menutop">名称</td>
-        <td class="menutop">系统银子</td>
-        <td class="menutop">充值</td>
-        <td class="menutop">赠送</td>
-        <td class="menutop">扣税</td>
-        <td class="menutop">机器人输赢</td>
+        <td class="menutop">英文名称</td>
+        <td class="menutop">状态</td>
+        <td class="menutop">锁定</td>
+        <td class="menutop">排序</td>
+        <td class="menutop">操作</td>
       </tr>
       <tr>
-        <td class="tdcenter">公司</td>
-        <td class="tdcenter"><a href="usermoneyView.html">0</a></td>
-        <td class="tdcenter"><a href="userpay.html">1000</a></td>
-        <td class="tdcenter"><a href="userpay.html">100</a></td>
-        <td class="tdcenter"><a href="taxmoneyView.html">400</a></td>
-        <td class="tdcenter"><a href="robotmoneyView.html">2000</a></td>
+        <td class="tdcenter"><input type="checkbox" id="checkbox" value="10541" name="checkbox" /></td>
+        <td class="tdcenter">易宝</td>
+        <td class="tdcenter"><a href="usermoneyView.html">Yeepay</a></td>
+        <td class="tdcenter">调试</td>
+        <td class="tdcenter"><a href="userpay.html">正常</a></td>
+        <td class="tdcenter">1</td>
+        <td class="tdcenter"><a href="">设置</a><em>|</em><a href="">修改</a><em>|</em><a href="">删除</a></td>
       </tr>
       <tr>
-        <td class="tdcenter2">公司</td>
-        <td class="tdcenter2"><a href="usermoneyView.html">0</a></td>
-        <td class="tdcenter2"><a href="userpay.html">1000</a></td>
-        <td class="tdcenter2"><a href="userpay.html">100</a></td>
-        <td class="tdcenter2"><a href="taxmoneyView.html">400</a></td>
-        <td class="tdcenter2"><a href="robotmoneyView.html">2000</a></td>
+        <td class="tdcenter2"><input type="checkbox" id="checkbox" value="10541" name="checkbox"></td>
+        <td class="tdcenter2">支付宝</td>
+        <td class="tdcenter2"><a href="usermoneyView.html">Alipay</a></td>
+        <td class="tdcenter2"><a href="userpay.html">调试</a></td>
+        <td class="tdcenter2"><a href="userpay.html">锁定</a></td>
+        <td class="tdcenter2">2</td>
+        <td class="tdcenter2"><a href="">设置</a><em>|</em><a href="">修改</a><em>|</em><a href="">删除</a></td>
       </tr>
       <tr>
-        <td class="tdcenter">公司</td>
-        <td class="tdcenter"><a href="usermoneyView.html">0</a></td>
-        <td class="tdcenter"><a href="userpay.html">1000</a></td>
-        <td class="tdcenter"><a href="userpay.html">100</a></td>
-        <td class="tdcenter"><a href="taxmoneyView.html">400</a></td>
-        <td class="tdcenter"><a href="robotmoneyView.html">2000</a></td>
+        <td class="tdcenter"><input type="checkbox" id="checkbox" value="10541" name="checkbox"></td>
+        <td class="tdcenter">网银在线</td>
+        <td class="tdcenter">Yinlian</td>
+        <td class="tdcenter">&nbsp;</td>
+        <td class="tdcenter">&nbsp;</td>
+        <td class="tdcenter">3</td>
+        <td class="tdcenter"><a href="">设置</a><em>|</em><a href="">修改</a><em>|</em><a href="">删除</a></td>
       </tr>
     </table>
     <h1>&nbsp;</h1>

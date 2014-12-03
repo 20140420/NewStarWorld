@@ -8,7 +8,8 @@
 </head>
 <body>
 	<Div class="title">手机菜单</Div>
-    <table width="100%" border="0" cellpadding="0" cellspacing="0" class="table_margin">
+    手游开发中。。。。。。
+    <!--<table width="100%" border="0" cellpadding="0" cellspacing="0" class="table_margin">
       <tr>
         <td height="28" class="menutop">日期</td>
         <td class="menutop">账户</td>
@@ -72,6 +73,6 @@
       <tr>
 		<td colspan="10" class="tdright_new">共10页 当前页1页 <a href="#">首页</a> <a href="#">上一页</a> <a href="#">下一页</a> <a href="#">末页</a> </td>
 	  </tr>
-    </table>
+    </table>-->
 </body>
 </html>
