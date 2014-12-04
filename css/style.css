@@ -1,12 +1,7 @@
 @charset "utf-8";
 /*公共部分*/
 .navPoint { CURSOR: hand; }
-body {
-	display: block;
-	OVERFLOW-X: hidden;
-	OVERFLOW: hidden;
-	height: 100%;
-}
+body {display:block;OVERFLOW-X: hidden; OVERFLOW: hidden; }
 td { font-size:12px; }
 a { color: #135294; text-decoration: none; }
 a:hover { color: #ff6600; text-decoration: underline; }
@@ -162,36 +157,11 @@ div.menu_childs ul li a:hover{ color:#fff; background:#3f3f3f; text-decoration: 
 .main_index {
 	float: left;
 	width: 100%;
-	height: 700px;
-	margin: 0px;
 }
-/**.main_index ul {
-	background-color: #000;
-	margin: 0px;
-	padding: 0px;
-	height: 500px;
-	width: 100%;
-	border: 2px solid #F00;
-}
-.main_index ul li {
-	list-style-type: none;
-	float: left;
-
-
-}
-.left_index {
-	background-color: #FFF;
-	width: 180px;
-}
-.right_index {
-	background-color: #FFF;
-	width: 100%;
-}**/
 .footer {
 	float: left;
 	height: 25px;
 	width: 100%;
-	background-color: #FFF;
+	background-color: #000;
 	margin: 0px;
-	border: 1px solid #000;
 }
