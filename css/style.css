@@ -1,7 +1,7 @@
 @charset "utf-8";
 /*公共部分*/
 .navPoint { CURSOR: hand; }
-body {OVERFLOW-X: hidden; OVERFLOW: hidden;display:block; }
+body {OVERFLOW-X: hidden; OVERFLOW: hidden; }
 td { font-size:12px; }
 a { color: #135294; text-decoration: none; }
 a:hover { color: #ff6600; text-decoration: underline; }
