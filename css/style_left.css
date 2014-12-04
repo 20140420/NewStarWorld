@@ -2,6 +2,7 @@ body {
 	margin: 0px;
 	overflow: hidden;
 	background-color: #FFF;
+	height: 100%;
 }
 img { float:none; vertical-align:middle; }
 hr { width:90%; text-align:left; size:0; height:0px; border-top:1px solid #46A0C8;}
