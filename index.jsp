@@ -51,7 +51,7 @@ function switchSysBar(){
 </DIV>
 <DIV style="BACKGROUND:#000; HEIGHT: 4px"></DIV>
 <!--导航部分结束-->
-<div class="main_index" style="height:500px;">
+<div class="main_index" style="height:700px;">
 <TABLE height="92%" cellSpacing=0 cellPadding=0 
 width="100%" border=0>
   <TBODY>
@@ -95,6 +95,5 @@ width="100%" border=0>
 </div>
 <!-- 尾部 -->
 <div class="footer"></div>
-<p>&nbsp;</p>
 </BODY>
 </HTML>
