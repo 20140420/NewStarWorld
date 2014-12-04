@@ -49,13 +49,8 @@ function switchSysBar(){
         <!--导航菜单end-->
     <!--</DIV>-->
 </DIV>
-<<<<<<< HEAD
 <!--<DIV style="BACKGROUND:#000; HEIGHT: 4px"></DIV>
 导航部分结束-->
-=======
-<DIV style="BACKGROUND:#000; HEIGHT: 4px"></DIV>
-<!--导航部分结束-->
->>>>>>> parent of 24ccfac... Revert "原来"
 <div class="main_index">
 <TABLE height="92%" cellSpacing=0 cellPadding=0 
 width="100%" border=0>
