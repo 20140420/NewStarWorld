@@ -1,4 +1,3 @@
-*{ margin:0; padding:0;}
 body {
 	margin: 0px;
 	overflow: hidden;
@@ -38,13 +37,15 @@ hr { width:90%; text-align:left; size:0; height:0px; border-top:1px solid #46A0C
 	display: block;
 	float: left;
 	width: 180px;
-	height: 30px;
+	height: 39px !important;
+	height: 39px;
 	text-align: center;
-	padding:0 10px 0;
-	background:#fff;
+	margin: 6px 0px 6px 0px;
+	padding:0px 10px 0px 0px;
 }
 
 #menubar a:hover{
+	filter: alpha(opacity=60);
 	color: #FFF;
 	text-decoration: none;
 	font-size: 14px;
@@ -52,8 +53,11 @@ hr { width:90%; text-align:left; size:0; height:0px; border-top:1px solid #46A0C
 	display: block;
 	float: left;
 	width: 180px;
-	height: 30px;
+	height: 39px !important;
+	height: 39px;
 	text-align: center;
-	background:#fff url(../images/nov_lfbg.png);
+	background-image: url(../images/nov_lfbg.png);
+	background-repeat: no-repeat;
 	margin: 0px;
+	padding: 8px 10px 0px 0px;
 }
