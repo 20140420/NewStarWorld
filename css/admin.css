@@ -26,7 +26,7 @@
 	font-family: "微软雅黑";
 }
 .left_iframe{
-	HEIGHT: 97%;
+	HEIGHT: 96%;
 	VISIBILITY: inherit;
 	WIDTH: 100%;
 	background: transparent;
@@ -34,7 +34,7 @@
 	padding: 0px;
 }
 .main_iframe{
-	HEIGHT: 100%;
+	HEIGHT: 99%;
 	VISIBILITY: inherit;
 	WIDTH: 100%;
 	Z-INDEX: 0;
