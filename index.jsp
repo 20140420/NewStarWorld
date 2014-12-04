@@ -49,8 +49,8 @@ function switchSysBar(){
         <!--导航菜单end-->
     <!--</DIV>-->
 </DIV>
-<DIV style="BACKGROUND:#000; HEIGHT: 4px"></DIV>
-<!--导航部分结束-->
+<!--<DIV style="BACKGROUND:#000; HEIGHT: 4px"></DIV>
+导航部分结束-->
 <div class="main_index">
 <TABLE height="92%" cellSpacing=0 cellPadding=0 
 width="100%" border=0>
