@@ -45,7 +45,7 @@ function switchSysBar(){
         </div>
         <!-- 头部用户信息end -->
         <!--导航菜单-->
-        <%@ include file="include/menu.jsp" %>
+        <%@ include file="include/menu0.jsp" %>
         <!--导航菜单end-->
     <!--</DIV>-->
 </DIV>
