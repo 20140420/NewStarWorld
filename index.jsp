@@ -24,7 +24,25 @@ function switchSysBar(){
      }
 }
 </SCRIPT>
-<META content="MSHTML 6.00.2900.5726" name=GENERATOR></HEAD>
+<META content="MSHTML 6.00.2900.5726" name=GENERATOR>
+  <script>
+function screenSize(){
+  var h=$('body,html').height();
+  var qr=$('body,html').height() -100-11;
+  var ql=$('body,html').height() -139-11;
+ $("#main_index").css("height",qr);
+ /**应用于360浏览器**/
+ $("#frmleft").height(ql);
+ $("#frmright").height(qr);
+}
+$(function(){
+	screenSize();
+	$(window).resize(function(){
+ 	screenSize();
+	});
+})
+  </script>
+</HEAD>
 <BODY style="MARGIN: 0px">
 <div class="state">
     <ul>
@@ -97,21 +115,5 @@ width="100%" border=0>
 <div class="footer"></div>
 <p>&nbsp;</p> -->
 </BODY>
-  <script>
-function screenSize(){
-  var h=$('body,html').height();
-  var qr=$('body,html').height() -100-11;
-  var ql=$('body,html').height() -139-11;
- $("#main_index").css("height",qr);
- /**应用于360浏览器**/
- $("#frmleft").height(ql);
- $("#frmright").height(qr);
-}
-$(function(){
-	screenSize();
-	$(window).resize(function(){
- 	screenSize();
-	});
-})
-  </script>
+
 </HTML>
