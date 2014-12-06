@@ -1,12 +1,12 @@
 <%@ page contentType="text/html; charset=utf-8" language="java" import="java.sql.*" errorPage="" %>
 <!DOCTYPE HTML Public "-//W3C//DTD HTML 4.0 Transitional//EN">
-<HTML xmlns="http://www.w3.org/1999/xhtml">
-<HEAD>
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD>
 <TITLE>后台管理系统</TITLE>
 <META http-equiv=Content-Type content="text/html; charset=utf-8">
 <LINK href="css/style.css" type=text/css rel=stylesheet>
 <link href="css/admin.css" type="text/css" rel="stylesheet">
 <script language="javascript" src="js/admin.js"></script>
+<script language="javascript" src="js/jquery.min.js?v=1.0"></script>
 <SCRIPT>
 var status = 1;
 var Menus = new DvMenuCls;
@@ -45,14 +45,14 @@ function switchSysBar(){
         </div>
         <!-- 头部用户信息end -->
         <!--导航菜单-->
-        <%@ include file="include/menu0.jsp" %>
+        <%@ include file="include/menu.jsp" %>
         <!--导航菜单end-->
     <!--</DIV>-->
 </DIV>
 <!--<DIV style="BACKGROUND:#000; HEIGHT: 4px"></DIV>
 导航部分结束-->
-<div class="main_index">
-<TABLE height="92%" cellSpacing=0 cellPadding=0 
+<div class="main_index" id="main_index">
+<TABLE height="100%" cellSpacing=0 cellPadding=0 
 width="100%" border=0>
   <TBODY>
   <TR>
@@ -67,7 +67,7 @@ width="100%" border=0>
 
             </TR></TBODY>
           </TABLE>
-      <IFRAME class=left_iframe id=frmleft name=frmleft 
+      <IFRAME class=left_iframe id="frmleft" name=frmleft 
       src="left.jsp" frameBorder=0 
       allowTransparency></IFRAME></TD>
     <!-- 2左导航开关 -->
@@ -79,8 +79,7 @@ width="100%" border=0>
             id=switchPoint title=关闭/打开左栏><IMG 
             src="images/right.gif"></SPAN> </TD></TR></TBODY></TABLE></TD>
     <!-- 3右主体内容 -->
-    <TD vAlign=top width="100%" >
-      <IFRAME class=main_iframe id=frmright name=frmright src="default.jsp" frameBorder=0 scrolling=yes></IFRAME>
+    <TD vAlign=top width="100%" ><iframe class=main_iframe id="frmright" name=frmright src="default.jsp" frameborder=0 scrolling=yes></iframe>
       <TABLE style="BACKGROUND: #FFF" cellSpacing=0 cellPadding=0 width="100%" border=0>
         <TBODY>
         <TR>
@@ -93,8 +92,26 @@ width="100%" border=0>
   </TBODY>
 </TABLE>
 </div>
-<!-- 尾部 -->
+
+<!-- 尾部
 <div class="footer"></div>
-<p>&nbsp;</p>
+<p>&nbsp;</p> -->
 </BODY>
+  <script>
+function screenSize(){
+  var h=$('body,html').height();
+  var qr=$('body,html').height() -100-11;
+  var ql=$('body,html').height() -139-11;
+ $("#main_index").css("height",qr);
+ /**应用于360浏览器**/
+ $("#frmleft").height(ql);
+ $("#frmright").height(qr);
+}
+$(function(){
+	screenSize();
+	$(window).resize(function(){
+ 	screenSize();
+	});
+})
+  </script>
 </HTML>

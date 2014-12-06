@@ -1,8 +1,9 @@
 <%@ page contentType="text/html; charset=utf-8" language="java" import="java.sql.*" errorPage="" %>
-<link href="../css/NewStarWorld.css" rel="stylesheet" type="text/css">
+
+		<DIV class=menu>
             <UL>
-              <LI id="menu_2" onmouseover="Menus.Show(this,0)" onclick="getleftbar(this)";><a href="#"><span>系统管理</span></a>
-                  <DIV class="menu_childs" onmouseout="Menus.Hide(0)";>
+              <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);><a href="#"><span>系统管理</span></a>
+                  <DIV class=menu_childs onmouseout=Menus.Hide(0);>
                   <UL>
                     <LI><A href="system/systemAdmin.jsp" target=frmright>管理账户</A></LI>
                     <LI><A href="system/dataCount.jsp" target=frmright>数据统计</A></LI>
@@ -11,29 +12,35 @@
                     <LI><A href="system/communicationSettings.jsp" target=frmright>通讯设置</A></LI>
                     <LI><A href="system/dataManage.jsp" target=frmright>数据管理</A></LI>
                     <LI><A href="system/bubblePointSettings.jsp" target=frmright>泡点设置</A></LI>
+                    <!--<LI><A href="system/onlineCount.jsp" target=frmright>在线统计</A></LI>-->
                     </UL></DIV>
-                  <!--<DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" 
-                  src="images/menu01_right.gif"></DIV>-->
+                  <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" 
+                  src="images/menu01_right.gif"></DIV>
               </LI>
               <!--*****************-->  
               <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);><a href="#"><span>账户管理</span></a>
-                  <!--<DIV class=menu_childs onmouseout=Menus.Hide(0);>
+                  <DIV class=menu_childs onmouseout=Menus.Hide(0);>
                   <UL>
                     <LI><A href="account/userManage.jsp" target=frmright>用户管理</A></LI>
+                    <!--<LI><A href="account/members.jsp" target=frmright>直属会员</A></LI>-->
                     <LI><A href="account/spreadManage.jsp" target=frmright>推广管理</A></LI>
                     <LI><A href="account/integralManage.jsp" target=frmright>积分管理</A></LI>
                     <LI><A href="account/charmManage.jsp" target=frmright>魅力管理</A></LI>
                     <LI><A href="account/medalManage.jsp" target=frmright>奖牌管理</A></LI>
                     <LI><A href="account/limitManage.jsp" target=frmright>限制管理</A></LI>
+                    <!--<LI><A href="account/limitIP.jsp" target=frmright>限制IP地址</A></LI>
+                    <LI><A href="account/limitUser.jsp" target=frmright>限制用户名</A></LI>
+                    <LI><A href="account/limitRobot.jsp" target=frmright>限制机器码</A></LI>-->
                     <LI><A href="account/robotManage.jsp" target=frmright>机器人管理</A></LI>
                     </UL></DIV>
                   <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" 
-                  src="images/menu01_right.gif"></DIV>-->
+                  src="images/menu01_right.gif"></DIV>
               </LI>
               <!--*****************-->  
               <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);><a href="#"><span>财务中心</span></a>
-                  <!--<DIV class=menu_childs onmouseout=Menus.Hide(0);>
+                  <DIV class=menu_childs onmouseout=Menus.Hide(0);>
                   <UL>
+                    <!--<LI><A href="finance/giro.jsp" target=frmright>转账</A></LI>-->
                     <LI><A href="finance/rechargeRecords.jsp" target=frmright>充值记录</A></LI>
                      <LI><A href="finance/bankRecords.jsp" target=frmright>钱庄记录</A></LI>
                     <LI><A href="finance/cashManage.jsp" target=frmright>提款管理</A></LI>
@@ -42,23 +49,37 @@
                     <LI><A href="finance/paymentInterface.jsp" target=frmright>支付接口</A></LI>
                     </UL></DIV>
                   <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" 
-                  src="images//menu01_right.gif"></DIV>-->
+                  src="images//menu01_right.gif"></DIV>
               </LI>
               <!--*****************-->  
               <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);><a href="#"><span>游戏管理</span></a>
-                  <!--<DIV class=menu_childs onmouseout=Menus.Hide(0);>
+                  <DIV class=menu_childs onmouseout=Menus.Hide(0);>
                   <UL>
-                    <LI><A href="game/gBairen.jsp" target=frmright>百人游戏</A></LI>
+                    <LI><A href="game/gManage.jsp" target=frmright>游戏管理</A></LI>
+					<LI><A href="game/gRoom.jsp" target=frmright>房间管理</A></LI>
+					<LI><A href="game/gBairen.jsp" target=frmright>百人游戏</A></LI>
                     <LI><A href="game/gSports.jsp" target=frmright>竞技游戏</A></LI>
                     <LI><A href="game/gLottery.jsp" target=frmright>彩票游戏</A></LI>
                     <LI><A href="game/gVideo.jsp" target=frmright>电子游艺</A></LI>
                         </UL></DIV>
                   <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" 
-                  src="images/menu01_right.gif"></DIV>-->
+                  src="images/menu01_right.gif"></DIV>
               </LI>
+              <!--*****************  
+              <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);><a href="#"><span>现场注单</span></a>
+                  <DIV class=menu_childs onmouseout=Menus.Hide(0);>
+                  <UL>
+                    <LI><A href="bet/betBairen.jsp" target=frmright>百人游戏</A></LI>
+                    <LI><A href="bet/betSports.jsp" target=frmright>竞技游戏</A></LI>
+                    <LI><A href="bet/betLottery.jsp" target=frmright>彩票游戏</A></LI>
+                    <LI><A href="bet/betVideo.jsp" target=frmright>电子游艺</A></LI>
+                        </UL></DIV>
+                  <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" 
+                  src="images/menu01_right.gif"></DIV>
+              </LI>-->
               <!--*****************-->  
               <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);><a href="#"><span>报表管理</span></a>
-                  <!--<DIV class=menu_childs onmouseout=Menus.Hide(0);>
+                  <DIV class=menu_childs onmouseout=Menus.Hide(0);>
                   <UL>
                     <LI><A href="reports/reportsBunko.jsp" target=frmright>输赢报表</A></LI>
                     <LI><A href="reports/reportsClassify.jsp" target=frmright>分类报表</A></LI>
@@ -70,11 +91,13 @@
                     <LI><A href="reports/reportsGameResults.jsp" target=frmright>游戏结果</A></LI>
                         </UL></DIV>
                   <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" 
-                  src="images/menu01_right.gif"></DIV>-->
-              </LI>              
+                  src="images/menu01_right.gif"></DIV>
+              </LI>
+              <!--*****************-->  
+              
               <!--*****************-->  
               <LI id=menu_2 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);><a href="#"><span>网站内容</span></a>
-                <!--<DIV class=menu_childs onmouseout=Menus.Hide(0);>
+                <DIV class=menu_childs onmouseout=Menus.Hide(0);>
                 <UL>
                     <LI><A href="web/helpCenter.jsp" target=frmright>帮助中心</A></LI>
                     <LI><A href="web/noticeManage.jsp" target=frmright>公告管理</A></LI>
@@ -88,6 +111,16 @@
                     <LI><A href="web/competitionManage.jsp" target=frmright>比赛管理</A></LI>
                 </UL>
                 </DIV>
-                <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" src="images/menu01_right.gif"></DIV>-->
+                <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" src="images/menu01_right.gif"></DIV>
               </LI>
+              <!--<LI id=menu_9 onmouseover=Menus.Show(this,0) onclick=getleftbar(this);><A href="#"><span>系统退出</span></A>
+                <DIV class=menu_childs onmouseout=Menus.Hide(0);>
+                    <UL>
+                        <LI><A href="out.jsp" target=frmright>安全退出</A></LI>
+                    </UL>
+                </DIV>
+                <DIV class=menu_div><IMG style="VERTICAL-ALIGN: bottom" src="images/menu01_right.gif"></DIV>
+              </LI>
+              <!--*****************-->
             </UL>
+        </DIV>

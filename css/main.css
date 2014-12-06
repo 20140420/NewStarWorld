@@ -376,6 +376,6 @@ td {
 }
 .default {
 	width: 600px;
-	margin: 30px auto 0px auto;
-	padding: 0px;
+	padding: 30px 0px 0px 0px;
+	margin: 0px auto;
 }

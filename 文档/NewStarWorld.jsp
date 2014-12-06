@@ -43,7 +43,7 @@ document.onclick=Menus.Clear;
         </div>
         <!--导航菜单-->
         <div class="menu">
-        <%@ include file="include/menu.jsp" %>
+        <%@ include file="include/menu0.jsp" %>
         </div>
         <!--导航菜单end-->
     </div>

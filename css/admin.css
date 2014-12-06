@@ -14,7 +14,7 @@
 }
 .left_title_bg {
 	background-image: url(../images/nov_lftitlebg.png);
-	background-repeat: no-repeat;
+	background-repeat: repeat-x;
 	height: 39px;
 }
 .main_left_title{
